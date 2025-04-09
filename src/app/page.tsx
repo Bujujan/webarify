@@ -296,7 +296,7 @@ export default function Home() {
             </Link>
           </div>
 
-          <p className="text-sm text-[#141414]/60">© 2023 Webarify. All Rights Reserved.</p>
+          <p className="text-sm text-[#141414]/60">© 2025 Webarify. All Rights Reserved.</p>
         </div>
       </footer>
     </div>
