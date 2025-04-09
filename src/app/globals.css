@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+html, body {
+  font-family: var(--font-raleway), sans-serif;
+}
+
+body {
+  background-color: #FFF6EA; /* This sets the background color using the root variable */
+}
