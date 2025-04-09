@@ -27,7 +27,7 @@ export default function NotFound() {
             <h1 className="text-9xl font-bold mb-4">404</h1>
             <h2 className="text-5xl font-bold mb-2">Oops !</h2>
             <h3 className="text-3xl font-bold mb-4">This page disappeared</h3>
-            <p className="text-[#141414]/70">The page you're looking for doesn't exist or has been moved.</p>
+            <p className="text-[#141414]/70">The page you&apos;re looking for doesn&apos;t exist or has been moved.</p>
             <Link href="/" className="text-sm underline text-[#278783]">
               Go back to home page &gt;
             </Link>
