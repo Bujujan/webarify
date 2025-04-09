@@ -9,15 +9,19 @@ import ButtonSecondary from "./components/ui/buttonSecondary"
 export default function Home() {
   return (
     <div className="min-h-screen">
+      
       {/* Header */}
-      <header className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <Image
-          src="/assets/images/webarifylogo.png"
-          alt="Webarify Logo"
-          width={150}
-          height={50}
-          className="object-contain"
-        />
+      {/* <header className="container mx-auto px-4 py-4 flex justify-between items-center">
+        <a href="http://www.webarify.com" rel="noopener noreferrer">
+          <Image
+            src="/assets/images/webarifylogo.png"
+            alt="Webarify Logo"
+            width={150}
+            height={50}
+            className="object-contain"
+          />
+        </a>
+        
 
         <nav className="hidden md:flex space-x-6">
           <Link href="#" className="text-sm">
@@ -34,7 +38,7 @@ export default function Home() {
           </Link>
         </nav>
         <Button text="Start my project" onClick={() => console.log("Start a project")}/>
-      </header>
+      </header> */}
 
       {/* Hero Section */}
       <section className="container mx-auto px-4 py-16 text-center">
@@ -47,7 +51,7 @@ export default function Home() {
             <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" /> */}
           </div>
         </div>
-        <h1 className="text-7xl md:text-8xl font-extrabold max-w-5xl mx-auto leading-tight">
+        <h1 className="text-5xl md:text-8xl font-extrabold max-w-5xl mx-auto leading-tight">
           We Bring Your Digital Vision to Life
         </h1>
         <p className="max-w-2xl mx-auto mt-4 text-[#141414]/80">
@@ -233,12 +237,14 @@ export default function Home() {
                 name: "Abdellah Boujoujan",
                 role: "Founder & Software Engineer",
                 bio: '"I am a Software Engineering student and UI/UX designer, passionate about building seamless digital experiences. I focus on crafting visually engaging and highly functional websites, blending design and development to create user-friendly, high-performance solutions."',
+                linkedin: "https://www.linkedin.com/in/abdellah-boujoujan",
               },
               {
                 image: "/assets/images/ryad.png",
                 name: "Ryad Benmanser",
                 role: "Co-Founder & Lead Developer",
                 bio: '"I am a Software Engineering student with a strong passion for backend development. I focus on building scalable, efficient, and secure systems to power great web applications. Always looking for new challenges and ways to optimize performance."',
+                linkedin: "https://www.linkedin.com/in/ryad-benmanser",
               },
             ].map((member, index) => (
               <div key={index} className="bg-white p-6 rounded-xl shadow-md text-left">
@@ -257,9 +263,15 @@ export default function Home() {
                 </div>
                 <p className="text-sm text-[#141414]/80">{member.bio}</p>
                 <div className="flex gap-2 mt-4">
-                  <div className="w-6 h-6 bg-gray-200 rounded-full"></div>
-                  <div className="w-6 h-6 bg-gray-200 rounded-full"></div>
-                  <div className="w-6 h-6 bg-gray-200 rounded-full"></div>
+                  <a href={member.linkedin} target="_blank" rel="noopener noreferrer">
+                    <Image
+                      src="/assets/images/LinkedIn.png"
+                      alt="LinkedIn"
+                      width={24}
+                      height={24}
+                      className="object-contain w-6 h-6"
+                    />
+                  </a>  
                 </div>
               </div>
             ))}
@@ -269,16 +281,16 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-[#FFF6EA] py-12">
+      {/* <footer className="bg-[#FFF6EA] py-12">
         <div className="container mx-auto px-4 text-center flex flex-col items-center">
           <Button text="Start webarifying" onClick={() => console.log("Start a project")}/>
           <Image
-                src="/assets/images/webarifylogo.png"
-                alt="Webarify Logo"
-                width={150}
-                height={50}
-                className="object-contain my-8"
-              />
+            src="/assets/images/webarifylogo.png"
+            alt="Webarify Logo"
+            width={150}
+            height={50}
+            className="object-contain my-8"
+          />
           <p className="text-[#141414]/50 mb-8">Get connected and start webarifying.</p>
 
           <div className="flex justify-center gap-8 mb-8">
@@ -298,7 +310,7 @@ export default function Home() {
 
           <p className="text-sm text-[#141414]/60">© 2025 Webarify. All Rights Reserved.</p>
         </div>
-      </footer>
+      </footer> */}
     </div>
   )
 }

@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Raleway } from "next/font/google";
 import "./globals.css";
-// import Header from "./components/Header";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",
@@ -30,12 +31,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      {/* <Header/> */}
+      <Header/>
       <body
         className={`${raleway.variable} antialiased`}
       >
         {children}
       </body>
+      <Footer/>
     </html>
   );
 }
