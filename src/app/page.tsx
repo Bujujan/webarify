@@ -159,7 +159,7 @@ export default function Home() {
       </section>
 
       {/* Success Section */}
-      <section className="container mx-auto px-4 py-16 flex flex-col md:flex-row items-center gap-8 md:gap-8">
+      <section className="container mx-auto px-4 py-16 flex flex-col md:flex-row items-center justify-center gap-8 md:gap-8">
         <div className="">
           <h2 className="text-4xl md:text-5xl md:max-w-3xl lg:text-7xl font-bold leading-tight">
             Your Website, Your Brand, Your Success - We Make It Happen!
