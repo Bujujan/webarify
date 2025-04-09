@@ -232,13 +232,13 @@ export default function Home() {
                 image: "/assets/images/bujujan.png",
                 name: "Abdellah Boujoujan",
                 role: "Founder & Software Engineer",
-                bio: '"I am a Software Engineering student and UI/UX designer, passionate about building seamless digital experiences. I focus on crafting visually engaging and highly functional websites, blending design and development to create user-friendly, high-performance solutions.”',
+                bio: "'I am a Software Engineering student and UI/UX designer, passionate about building seamless digital experiences. I focus on crafting visually engaging and highly functional websites, blending design and development to create user-friendly, high-performance solutions.'",
               },
               {
                 image: "/assets/images/ryad.png",
                 name: "Ryad Benmanser",
                 role: "Co-Founder & Lead Developer",
-                bio: '“I am a Software Engineering student with a strong passion for backend development. I focus on building scalable, efficient, and secure systems to power great web applications. Always looking for new challenges and ways to optimize performance.”',
+                bio: "'I am a Software Engineering student with a strong passion for backend development. I focus on building scalable, efficient, and secure systems to power great web applications. Always looking for new challenges and ways to optimize performance.'",
               },
             ].map((member, index) => (
               <div key={index} className="bg-white p-6 rounded-xl shadow-md text-left">
