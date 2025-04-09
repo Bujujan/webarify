@@ -1,7 +1,6 @@
 'use client'
 
 import Image from "next/image"
-import Link from "next/link"
 // import { Star } from "lucide-react"
 import Button from "./components/ui/button"
 import ButtonSecondary from "./components/ui/buttonSecondary"
@@ -9,7 +8,7 @@ import ButtonSecondary from "./components/ui/buttonSecondary"
 export default function Home() {
   return (
     <div className="min-h-screen">
-      
+
       {/* Header */}
       {/* <header className="container mx-auto px-4 py-4 flex justify-between items-center">
         <a href="http://www.webarify.com" rel="noopener noreferrer">
