@@ -21,7 +21,7 @@ const Header = () => {
       
 
       <nav className="hidden md:flex space-x-6">
-        <Link href="#" className="text-sm">
+        <Link href="/" className="text-sm">
           Home
         </Link>
         <Link href="#" className="text-sm">
@@ -30,7 +30,7 @@ const Header = () => {
         <Link href="#" className="text-sm">
           Our Services
         </Link>
-        <Link href="#" className="text-sm">
+        <Link href="/about-us" className="text-sm">
           About Us
         </Link>
       </nav>
