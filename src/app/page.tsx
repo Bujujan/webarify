@@ -159,9 +159,9 @@ export default function Home() {
       </section>
 
       {/* Success Section */}
-      <section className="container mx-auto px-4 py-16 flex flex-col md:flex-row items-center gap-96">
-        <div className="md:w-1/2">
-          <h2 className="text-3xl md:text-5xl font-bold leading-tight">
+      <section className="container mx-auto px-4 py-16 flex flex-col md:flex-row items-center gap-8 md:gap-8">
+        <div className="">
+          <h2 className="text-4xl md:text-5xl md:max-w-3xl lg:text-7xl font-bold leading-tight">
             Your Website, Your Brand, Your Success - We Make It Happen!
           </h2>
           <p className="mt-4 mb-4 text-[#141414]/80">
@@ -170,9 +170,9 @@ export default function Home() {
           </p>
             <Button text="Start a project" onClick={() => console.log("Start a project")}/>
         </div>
-        <div className="md:w-1/2">
+        <div className="">
           <Image src="/assets/images/3dthumbsup.png" alt="Thumbs up"
-          width={500} height={400} />
+          width={800} height={400} className="w-full h-full" />
         </div>
       </section>
 
@@ -226,19 +226,19 @@ export default function Home() {
         <p className="text-[#141414]/80 mb-8">Meet the creative minds behind our exceptional projects</p>
 
         <div className="flex justify-center w-full">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 md:max-w-6xl gap-6 mx-auto">
             {[
               {
                 image: "/assets/images/bujujan.png",
                 name: "Abdellah Boujoujan",
                 role: "Founder & Software Engineer",
-                bio: "'I am a Software Engineering student and UI/UX designer, passionate about building seamless digital experiences. I focus on crafting visually engaging and highly functional websites, blending design and development to create user-friendly, high-performance solutions.'",
+                bio: '"I am a Software Engineering student and UI/UX designer, passionate about building seamless digital experiences. I focus on crafting visually engaging and highly functional websites, blending design and development to create user-friendly, high-performance solutions."',
               },
               {
                 image: "/assets/images/ryad.png",
                 name: "Ryad Benmanser",
                 role: "Co-Founder & Lead Developer",
-                bio: "'I am a Software Engineering student with a strong passion for backend development. I focus on building scalable, efficient, and secure systems to power great web applications. Always looking for new challenges and ways to optimize performance.'",
+                bio: '"I am a Software Engineering student with a strong passion for backend development. I focus on building scalable, efficient, and secure systems to power great web applications. Always looking for new challenges and ways to optimize performance."',
               },
             ].map((member, index) => (
               <div key={index} className="bg-white p-6 rounded-xl shadow-md text-left">
