@@ -165,7 +165,7 @@ export default function Home() {
             Your Website, Your Brand, Your Success - We Make It Happen!
           </h2>
           <p className="mt-4 mb-4 text-[#141414]/80">
-            Don't settle for average. Let's craft a stunning, fast, and scalable website tailored to your business
+            Don&apos;t settle for average. Let&apos;s craft a stunning, fast, and scalable website tailored to your business
             needs!
           </p>
             <Button text="Start a project" onClick={() => console.log("Start a project")}/>
@@ -232,13 +232,13 @@ export default function Home() {
                 image: "/assets/images/bujujan.png",
                 name: "Abdellah Boujoujan",
                 role: "Founder & Software Engineer",
-                bio: "&quot;I am a Software Engineering student and UI/UX designer, passionate about building seamless digital experiences. I focus on crafting visually engaging and highly functional websites, blending design and development to create user-friendly, high-performance solutions.&quot;",
+                bio: "'I am a Software Engineering student and UI/UX designer, passionate about building seamless digital experiences. I focus on crafting visually engaging and highly functional websites, blending design and development to create user-friendly, high-performance solutions.'",
               },
               {
                 image: "/assets/images/ryad.png",
                 name: "Ryad Benmanser",
                 role: "Co-Founder & Lead Developer",
-                bio: "&quot;I am a Software Engineering student with a strong passion for backend development. I focus on building scalable, efficient, and secure systems to power great web applications. Always looking for new challenges and ways to optimize performance.&quot;",
+                bio: "'I am a Software Engineering student with a strong passion for backend development. I focus on building scalable, efficient, and secure systems to power great web applications. Always looking for new challenges and ways to optimize performance.'",
               },
             ].map((member, index) => (
               <div key={index} className="bg-white p-6 rounded-xl shadow-md text-left">
