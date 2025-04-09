@@ -279,6 +279,7 @@ export default function Home() {
                 height={50}
                 className="object-contain my-8"
               />
+          <p className="text-[#141414]/50 mb-8">Get connected and start webarifying.</p>
 
           <div className="flex justify-center gap-8 mb-8">
             <Link href="#" className="text-sm">
