@@ -4,6 +4,7 @@ import Image from "next/image"
 // import { Star } from "lucide-react"
 import Button from "./components/ui/button"
 import ButtonSecondary from "./components/ui/buttonSecondary"
+import { Linkedin } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -262,15 +263,14 @@ export default function Home() {
                 </div>
                 <p className="text-sm text-[#141414]/80">{member.bio}</p>
                 <div className="flex gap-2 mt-4">
-                  <a href={member.linkedin} target="_blank" rel="noopener noreferrer">
-                    <Image
-                      src="/assets/images/LinkedIn.png"
-                      alt="LinkedIn"
-                      width={24}
-                      height={24}
-                      className="object-contain w-6 h-6"
-                    />
-                  </a>  
+                <a
+                  href={member.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group"
+                >
+                  <Linkedin className="w-6 h-6 text-[#141414] group-hover:text-[#0077B5] transition-colors duration-200" />
+                </a> 
                 </div>
               </div>
             ))}
