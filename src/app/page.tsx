@@ -59,8 +59,14 @@ export default function Home() {
           platforms—carefully bring your vision to life.
         </p>
         <div className="mt-8 flex justify-center gap-4">
-          <Button text="Start my project" onClick={() => console.log("Start a project")}/>
-          <ButtonSecondary text="Contact Us" onClick={() => console.log("Start a project")}/>
+          <Button text="Start my project" className="w-full" onClick={() => window.open(
+            "https://wa.me/+212650661172?text=Hi!%20I'm%20interested%20in%20starting%20a%20project%20with%20you.",
+            "_blank"
+          )} />
+          <ButtonSecondary text="Contact Us" onClick={() => window.open(
+            "https://wa.me/+212650661172?text=Hi!%20I'm%20interested%20in%20starting%20a%20project%20with%20you.",
+            "_blank"
+          )}/>
         </div>
 
         {/* Product Showcase */}
@@ -172,7 +178,10 @@ export default function Home() {
             Don&apos;t settle for average. Let&apos;s craft a stunning, fast, and scalable website tailored to your business
             needs!
           </p>
-            <Button text="Start a project" onClick={() => console.log("Start a project")}/>
+          <Button text="Start my project" className="w-full" onClick={() => window.open(
+            "https://wa.me/+212650661172?text=Hi!%20I'm%20interested%20in%20starting%20a%20project%20with%20you.",
+            "_blank"
+          )} /> 
         </div>
         <div className="">
           <Image src="/assets/images/3dthumbsup.png" alt="Thumbs up"
