@@ -22,7 +22,7 @@ export default function OurServices() {
           <h1 className="text-5xl md:text-6xl font-bold mt-4 mb-8">Elevate Your Digital Presence</h1>
           <p className="text-lg leading-relaxed">
             We offer comprehensive solutions to help your business stand out in the digital landscape. From creating a
-            memorable brand identity to developing high-performing websites, we've got you covered with packages
+            memorable brand identity to developing high-performing websites, we&apos;ve got you covered with packages
             tailored to your needs.
           </p>
         </div>
@@ -291,7 +291,7 @@ export default function OurServices() {
           <div className="text-center">
             <h2 className="text-2xl font-bold mb-4">Need a Custom Solution?</h2>
             <p className="mb-6">
-              Don't see a package that fits your needs? We offer custom solutions tailored to your specific
+              Don&apos;t see a package that fits your needs? We offer custom solutions tailored to your specific
               requirements.
             </p>
             <Button text="Contact Us" onClick={() => console.log("Start a project")}/>
@@ -347,7 +347,7 @@ export default function OurServices() {
           <div className="text-center">
             <h2 className="text-3xl font-bold mb-4">Ready to Transform Your Digital Presence?</h2>
             <p className="mb-6 max-w-2xl mx-auto">
-              Let's work together to create a stunning brand and website that helps your business stand out and succeed
+              Let&apos;s work together to create a stunning brand and website that helps your business stand out and succeed
               online.
             </p>
             {/* <Button href="/contact" className="bg-white text-[#278783] hover:bg-white/90 hover:text-[#278783]">
