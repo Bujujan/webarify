@@ -2,6 +2,7 @@
 
 import { Check, X } from "lucide-react"
 import Button from "../components/ui/button"
+import ButtonCustom from "../components/ui/buttonCustom"
 
 export default function OurServices() {
   return (
@@ -43,7 +44,7 @@ export default function OurServices() {
               <div className="p-6 border-b">
                 <h3 className="text-xl font-bold">Basic</h3>
                 <div className="mt-4 flex items-end">
-                  <span className="text-4xl font-bold">$999</span>
+                  <span className="text-4xl font-bold">7000 MAD</span>
                   <span className="text-[#141414]/60 ml-2">/ one-time</span>
                 </div>
                 <p className="mt-2 text-[#141414]/70">Perfect for small businesses just getting started</p>
@@ -72,7 +73,10 @@ export default function OurServices() {
                     ),
                   )}
                 </ul>
-                <Button text="Get Started" className="w-full" onClick={() => console.log("Start a project")}/>
+                <Button text="Start my project" className="w-full" onClick={() => window.open(
+                    "https://wa.me/+212650661172?text=Hi!%20I'm%20interested%20in%20starting%20a%20project%20with%20you.",
+                    "_blank"
+                )} />
               </div>
             </div>
 
@@ -84,7 +88,7 @@ export default function OurServices() {
               <div className="p-6 border-b">
                 <h3 className="text-xl font-bold">Standard</h3>
                 <div className="mt-4 flex items-end">
-                  <span className="text-4xl font-bold">$2,499</span>
+                  <span className="text-4xl font-bold">13000 MAD</span>
                   <span className="text-[#141414]/60 ml-2">/ one-time</span>
                 </div>
                 <p className="mt-2 text-[#141414]/70">Ideal for growing businesses with specific needs</p>
@@ -114,7 +118,10 @@ export default function OurServices() {
                     </li>
                   ))}
                 </ul>
-                <Button text="Get Started" className="w-full" onClick={() => console.log("Start a project")}/>
+                <Button text="Start my project" className="w-full" onClick={() => window.open(
+                    "https://wa.me/+212650661172?text=Hi!%20I'm%20interested%20in%20starting%20a%20project%20with%20you.",
+                    "_blank"
+                )} />
               </div>
             </div>
 
@@ -123,7 +130,7 @@ export default function OurServices() {
               <div className="p-6 border-b">
                 <h3 className="text-xl font-bold">Premium</h3>
                 <div className="mt-4 flex items-end">
-                  <span className="text-4xl font-bold">$4,999</span>
+                  <span className="text-4xl font-bold">On Contact</span>
                   <span className="text-[#141414]/60 ml-2">/ one-time</span>
                 </div>
                 <p className="mt-2 text-[#141414]/70">Comprehensive solution for established businesses</p>
@@ -151,7 +158,10 @@ export default function OurServices() {
                     </li>
                   ))}
                 </ul>
-                <Button text="Get Started" className="w-full" onClick={() => console.log("Start a project")}/>
+                <Button text="Start my project" className="w-full" onClick={() => window.open(
+                    "https://wa.me/+212650661172?text=Hi!%20I'm%20interested%20in%20starting%20a%20project%20with%20you.",
+                    "_blank"
+                )} />
               </div>
             </div>
           </div>
@@ -173,7 +183,7 @@ export default function OurServices() {
               <div className="p-6 border-b">
                 <h3 className="text-xl font-bold">Starter</h3>
                 <div className="mt-4 flex items-end">
-                  <span className="text-4xl font-bold">$799</span>
+                  <span className="text-4xl font-bold">3000 MAD</span>
                   <span className="text-[#141414]/60 ml-2">/ one-time</span>
                 </div>
                 <p className="mt-2 text-[#141414]/70">Essential branding for new businesses</p>
@@ -202,7 +212,10 @@ export default function OurServices() {
                     ),
                   )}
                 </ul>
-                <Button text="Get Started" className="w-full" onClick={() => console.log("Start a project")}/>
+                <Button text="Start my project" className="w-full" onClick={() => window.open(
+                    "https://wa.me/+212650661172?text=Hi!%20I'm%20interested%20in%20starting%20a%20project%20with%20you.",
+                    "_blank"
+                )} />
               </div>
             </div>
 
@@ -214,7 +227,7 @@ export default function OurServices() {
               <div className="p-6 border-b">
                 <h3 className="text-xl font-bold">Professional</h3>
                 <div className="mt-4 flex items-end">
-                  <span className="text-4xl font-bold">$1,899</span>
+                  <span className="text-4xl font-bold">8000 MAD</span>
                   <span className="text-[#141414]/60 ml-2">/ one-time</span>
                 </div>
                 <p className="mt-2 text-[#141414]/70">Complete branding package for established businesses</p>
@@ -227,7 +240,6 @@ export default function OurServices() {
                     "Typography selection",
                     "Brand guidelines",
                     "Business card design",
-                    "Letterhead & envelope",
                     "Email signature",
                     "Social media profile images",
                     "3 rounds of revisions",
@@ -244,7 +256,10 @@ export default function OurServices() {
                     </li>
                   ))}
                 </ul>
-                <Button text="Get Started" className="w-full" onClick={() => console.log("Start a project")}/>
+                <Button text="Start my project" className="w-full" onClick={() => window.open(
+                    "https://wa.me/+212650661172?text=Hi!%20I'm%20interested%20in%20starting%20a%20project%20with%20you.",
+                    "_blank"
+                )} />
               </div>
             </div>
 
@@ -253,7 +268,7 @@ export default function OurServices() {
               <div className="p-6 border-b">
                 <h3 className="text-xl font-bold">Enterprise</h3>
                 <div className="mt-4 flex items-end">
-                  <span className="text-4xl font-bold">$3,499</span>
+                  <span className="text-4xl font-bold">On Contact</span>
                   <span className="text-[#141414]/60 ml-2">/ one-time</span>
                 </div>
                 <p className="mt-2 text-[#141414]/70">Strategic branding for companies ready to scale</p>
@@ -280,7 +295,10 @@ export default function OurServices() {
                     </li>
                   ))}
                 </ul>
-                <Button text="Get Started" className="w-full" onClick={() => console.log("Start a project")}/>
+                <Button text="Start my project" className="w-full" onClick={() => window.open(
+                    "https://wa.me/+212650661172?text=Hi!%20I'm%20interested%20in%20starting%20a%20project%20with%20you.",
+                    "_blank"
+                )} />
               </div>
             </div>
           </div>
@@ -294,7 +312,10 @@ export default function OurServices() {
               Don&apos;t see a package that fits your needs? We offer custom solutions tailored to your specific
               requirements.
             </p>
-            <Button text="Contact Us" onClick={() => console.log("Start a project")}/>
+            <Button text="Start my project" className="w-full" onClick={() => window.open(
+                "https://wa.me/+212650661172?text=Hi!%20I'm%20interested%20in%20starting%20a%20project%20with%20you.",
+                "_blank"
+            )} />
           </div>
         </section>
 
@@ -353,7 +374,10 @@ export default function OurServices() {
             {/* <Button href="/contact" className="bg-white text-[#278783] hover:bg-white/90 hover:text-[#278783]">
               Start Your Project
             </Button> */}
-            <Button text="Start Your Project" className="" onClick={() => console.log("Start a project")}/>
+            <Button text="Start my project" className="w-full" onClick={() => window.open(
+                "https://wa.me/+212650661172?text=Hi!%20I'm%20interested%20in%20starting%20a%20project%20with%20you.",
+                "_blank"
+            )} />
           </div>
         </section>
       </main>
