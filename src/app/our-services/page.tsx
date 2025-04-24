@@ -3,7 +3,7 @@
 import { Check, X } from "lucide-react"
 import Button from "../../components/ui/button"
 import ButtonCustom from "../../components/ui/buttonCustom"
-import { Metadata } from "next";
+// import { Metadata } from "next";
 
 
 // export const metadata: Metadata = {

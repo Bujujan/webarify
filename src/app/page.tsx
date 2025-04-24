@@ -5,7 +5,7 @@ import Image from "next/image"
 import Button from "../components/ui/button"
 import ButtonSecondary from "../components/ui/buttonSecondary"
 import { Linkedin } from 'lucide-react';
-import { Metadata } from "next";
+// import { Metadata } from "next";
 
 
 // export const metadata: Metadata = {
