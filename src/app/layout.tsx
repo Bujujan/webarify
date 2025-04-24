@@ -21,9 +21,26 @@ const raleway = Raleway({
 })
 
 export const metadata: Metadata = {
-  title: "Webarify - Digital Vision to Life",
-  description: "We craft fast, modern, and stunning websites that help businesses grow.",
+  title: "Webarify | Web Design, Branding & Digital Solutions Agency in Morocco",
+  description: "Webarify is a top-tier web design and branding agency based in Morocco, serving clients worldwide. We craft stunning, high-performance websites, build unique brand identities, develop intelligent chatbots, and deliver powerful digital strategies that help businesses grow, convert, and lead in their industry.",
+  keywords: [
+    "web design agency",
+    "web development agency",
+    "branding agency",
+    "digital agency Morocco",
+    "UI/UX design",
+    "e-commerce websites",
+    "chatbot development",
+    "SEO services",
+    "web development Morocco",
+    "creative branding",
+    "responsive websites",
+    "Moroccan web agency",
+    "custom website design",
+    "business growth solutions",
+  ],
 };
+
 
 export default function RootLayout({
   children,
