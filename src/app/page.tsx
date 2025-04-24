@@ -2,8 +2,8 @@
 
 import Image from "next/image"
 // import { Star } from "lucide-react"
-import Button from "./components/ui/button"
-import ButtonSecondary from "./components/ui/buttonSecondary"
+import Button from "../components/ui/button"
+import ButtonSecondary from "../components/ui/buttonSecondary"
 import { Linkedin } from 'lucide-react';
 
 export default function Home() {

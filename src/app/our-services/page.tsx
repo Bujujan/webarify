@@ -1,8 +1,8 @@
 'use client'
 
 import { Check, X } from "lucide-react"
-import Button from "../components/ui/button"
-import ButtonCustom from "../components/ui/buttonCustom"
+import Button from "../../components/ui/button"
+import ButtonCustom from "../../components/ui/buttonCustom"
 
 export default function OurServices() {
   return (
