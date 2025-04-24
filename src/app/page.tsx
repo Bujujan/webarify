@@ -5,6 +5,38 @@ import Image from "next/image"
 import Button from "../components/ui/button"
 import ButtonSecondary from "../components/ui/buttonSecondary"
 import { Linkedin } from 'lucide-react';
+import { Metadata } from "next";
+
+
+export const metadata: Metadata = {
+  title: "Webarify | Web Design, Branding & Digital Solutions Agency in Morocco | Agence Web, Branding & Solutions Digitales au Maroc",
+  description: "Webarify is a creative web design and branding agency based in Morocco, serving businesses worldwide. We craft fast, responsive websites, build unique brand identities, and develop smart digital solutions like chatbots and SEO strategies to help brands grow online. | Webarify est une agence créative de design web et de branding basée au Maroc, au service des entreprises du monde entier. Nous concevons des sites web rapides et responsives, créons des identités de marque uniques, et développons des solutions digitales intelligentes telles que des chatbots et des stratégies SEO pour aider les marques à se développer en ligne.",
+  keywords: [
+    // English
+    "web design agency Morocco",
+    "affordable web development",
+    "professional branding services",
+    "creative web agency",
+    "global digital agency",
+    "responsive website design",
+    "custom websites at affordable prices",
+    "website and branding solutions",
+    "modern web design",
+    "business growth online",
+    // French
+    "agence de design web Maroc",
+    "développement web abordable",
+    "services de branding professionnels",
+    "agence web créative",
+    "agence digitale internationale",
+    "création de site responsive",
+    "sites web personnalisés à prix abordables",
+    "solutions de site web et branding",
+    "design web moderne",
+    "croissance des entreprises en ligne"
+  ],
+};
+
 
 export default function Home() {
   return (

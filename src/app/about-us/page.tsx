@@ -1,6 +1,28 @@
 import Image from "next/image"
 import { Linkedin } from 'lucide-react';
+import { Metadata } from "next";
 // import { Button } from "@/components/ui/button-custom"
+
+export const metadata: Metadata = {
+  title: "Webarify | Web Design & Branding Agency | Agence Web & Branding au Maroc",
+  description: "Learn more about Webarify — a Morocco-based web and branding agency with a global reach. Découvrez Webarify — une agence web et de branding basée au Maroc avec une portée internationale. We create stunning digital experiences through design, technology, and strategy.",
+  keywords: [
+    // English
+    "about Webarify",
+    "creative team Morocco",
+    "affordable digital solutions",
+    "web agency with global reach",
+    "branding experts Morocco",
+    "website creators Morocco",
+    // French
+    "à propos de Webarify",
+    "équipe créative Maroc",
+    "solutions digitales abordables",
+    "agence web internationale",
+    "experts en branding Maroc",
+    "créateurs de sites web Maroc"
+  ]
+};
 
 export default function AboutUs() {
   return (
