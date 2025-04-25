@@ -18,7 +18,7 @@ const Button: React.FC<CustomButtonProps> = ({ text, onClick,  className }) => {
 
       {/* Actual button */}
       <button
-        onClick={(e) => {
+        onClick={() => {
           onClick?.(); // Call the optional onClick function passed via props
           window.open(
             "https://wa.me/+212650661172?text=Hi!%20I'm%20interested%20in%20starting%20a%20project%20with%20you.",
