@@ -382,10 +382,7 @@ export default function OurServices() {
             {/* <Button href="/contact" className="bg-white text-[#278783] hover:bg-white/90 hover:text-[#278783]">
               Start Your Project
             </Button> */}
-            <ButtonCustom text="Start my project" className="w-full" onClick={() => window.open(
-                "https://wa.me/+212650661172?text=Hi!%20I'm%20interested%20in%20starting%20a%20project%20with%20you.",
-                "_blank"
-            )} />
+            <ButtonCustom text="Start my project" className="w-full" />
           </div>
         </section>
       </main>
