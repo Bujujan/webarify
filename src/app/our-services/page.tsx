@@ -1,39 +1,37 @@
-'use client'
-
 import { Check, X } from "lucide-react"
 import Button from "../../components/ui/button"
 import ButtonCustom from "../../components/ui/buttonCustom"
-// import { Metadata } from "next";
+import { Metadata } from "next";
 
 
-// export const metadata: Metadata = {
-//   title: "Webarify | Web Design, Branding & Digital Solutions Agency in Morocco | Agence Web, Branding & Solutions Digitales au Maroc",
-//   description: "Discover Webarify's full range of digital services — from custom web design and development to branding, UI/UX design, SEO, e-commerce solutions, and AI-powered chatbots. We help businesses worldwide build strong online identities and drive digital growth. | Découvrez toute la gamme de services digitaux de Webarify — de la création de sites web personnalisés au branding, design UI/UX, SEO, solutions e-commerce et chatbots intelligents. Nous aidons les entreprises du monde entier à développer leur présence en ligne et leur croissance digitale.",
-//   keywords: [
-//     // English
-//     "web development services",
-//     "affordable website design",
-//     "branding agency services",
-//     "UI/UX design experts",
-//     "SEO optimization agency",
-//     "e-commerce website development",
-//     "chatbot development services",
-//     "digital marketing solutions",
-//     "Morocco digital agency",
-//     "full-service creative agency",
-//     // French
-//     "services de développement web",
-//     "création de site web abordable",
-//     "agence de branding",
-//     "experts en design UI/UX",
-//     "agence d'optimisation SEO",
-//     "développement site e-commerce",
-//     "création de chatbots",
-//     "solutions de marketing digital",
-//     "agence digitale Maroc",
-//     "agence créative tout-en-un"
-//   ],
-// };
+export const metadata: Metadata = {
+  title: "Webarify | Web Design, Branding & Digital Solutions Agency in Morocco | Agence Web, Branding & Solutions Digitales au Maroc",
+  description: "Discover Webarify's full range of digital services — from custom web design and development to branding, UI/UX design, SEO, e-commerce solutions, and AI-powered chatbots. We help businesses worldwide build strong online identities and drive digital growth. | Découvrez toute la gamme de services digitaux de Webarify — de la création de sites web personnalisés au branding, design UI/UX, SEO, solutions e-commerce et chatbots intelligents. Nous aidons les entreprises du monde entier à développer leur présence en ligne et leur croissance digitale.",
+  keywords: [
+    // English
+    "web development services",
+    "affordable website design",
+    "branding agency services",
+    "UI/UX design experts",
+    "SEO optimization agency",
+    "e-commerce website development",
+    "chatbot development services",
+    "digital marketing solutions",
+    "Morocco digital agency",
+    "full-service creative agency",
+    // French
+    "services de développement web",
+    "création de site web abordable",
+    "agence de branding",
+    "experts en design UI/UX",
+    "agence d'optimisation SEO",
+    "développement site e-commerce",
+    "création de chatbots",
+    "solutions de marketing digital",
+    "agence digitale Maroc",
+    "agence créative tout-en-un"
+  ],
+};
 
 export default function OurServices() {
   return (
@@ -104,10 +102,7 @@ export default function OurServices() {
                     ),
                   )}
                 </ul>
-                <Button text="Start my project" className="w-full" onClick={() => window.open(
-                    "https://wa.me/+212650661172?text=Hi!%20I'm%20interested%20in%20starting%20a%20project%20with%20you.",
-                    "_blank"
-                )} />
+                <Button text="Start my project" className="w-full"/>
               </div>
             </div>
 
@@ -149,10 +144,7 @@ export default function OurServices() {
                     </li>
                   ))}
                 </ul>
-                <Button text="Start my project" className="w-full" onClick={() => window.open(
-                    "https://wa.me/+212650661172?text=Hi!%20I'm%20interested%20in%20starting%20a%20project%20with%20you.",
-                    "_blank"
-                )} />
+                <Button text="Start my project" className="w-full"/>
               </div>
             </div>
 
@@ -189,10 +181,7 @@ export default function OurServices() {
                     </li>
                   ))}
                 </ul>
-                <Button text="Start my project" className="w-full" onClick={() => window.open(
-                    "https://wa.me/+212650661172?text=Hi!%20I'm%20interested%20in%20starting%20a%20project%20with%20you.",
-                    "_blank"
-                )} />
+                <Button text="Start my project" className="w-full"/>
               </div>
             </div>
           </div>
@@ -243,10 +232,7 @@ export default function OurServices() {
                     ),
                   )}
                 </ul>
-                <Button text="Start my project" className="w-full" onClick={() => window.open(
-                    "https://wa.me/+212650661172?text=Hi!%20I'm%20interested%20in%20starting%20a%20project%20with%20you.",
-                    "_blank"
-                )} />
+                <Button text="Start my project" className="w-full"/>
               </div>
             </div>
 
@@ -287,10 +273,7 @@ export default function OurServices() {
                     </li>
                   ))}
                 </ul>
-                <Button text="Start my project" className="w-full" onClick={() => window.open(
-                    "https://wa.me/+212650661172?text=Hi!%20I'm%20interested%20in%20starting%20a%20project%20with%20you.",
-                    "_blank"
-                )} />
+                <Button text="Start my project" className="w-full"/>
               </div>
             </div>
 
@@ -326,10 +309,7 @@ export default function OurServices() {
                     </li>
                   ))}
                 </ul>
-                <Button text="Start my project" className="w-full" onClick={() => window.open(
-                    "https://wa.me/+212650661172?text=Hi!%20I'm%20interested%20in%20starting%20a%20project%20with%20you.",
-                    "_blank"
-                )} />
+                <Button text="Start my project" className="w-full"/>
               </div>
             </div>
           </div>
@@ -343,10 +323,7 @@ export default function OurServices() {
               Don&apos;t see a package that fits your needs? We offer custom solutions tailored to your specific
               requirements.
             </p>
-            <Button text="Start my project" className="w-full" onClick={() => window.open(
-                "https://wa.me/+212650661172?text=Hi!%20I'm%20interested%20in%20starting%20a%20project%20with%20you.",
-                "_blank"
-            )} />
+            <Button text="Start my project" className="w-full"/>
           </div>
         </section>
 

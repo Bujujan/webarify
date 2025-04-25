@@ -42,10 +42,7 @@ const Header = () => {
 
       {/* Desktop Button - Right aligned */}
       <div className="hidden md:flex items-center">
-        <Button text="Start my project" onClick={() => window.open(
-          "https://wa.me/+212650661172?text=Hi!%20I'm%20interested%20in%20starting%20a%20project%20with%20you.",
-          "_blank"
-        )} />
+        <Button text="Start my project"/>
       </div>
 
       {/* Mobile Menu Toggle */}
@@ -73,11 +70,7 @@ const Header = () => {
           </Link>
           <Button text="Start my project" className='w-full' onClick={() => {
             setIsMenuOpen(false)
-            window.open(
-              "https://wa.me/+212650661172?text=Hi!%20I'm%20interested%20in%20starting%20a%20project%20with%20you.",
-              "_blank"
-            )
-          }} />
+          }} /> 
         </div>
       )}
     </header>

@@ -1,41 +1,39 @@
-'use client'
-
 import Image from "next/image"
 // import { Star } from "lucide-react"
 import Button from "../components/ui/button"
 import ButtonSecondary from "../components/ui/buttonSecondary"
 import { Linkedin } from 'lucide-react';
-// import { Metadata } from "next";
+import { Metadata } from "next";
 
 
-// export const metadata: Metadata = {
-//   title: "Webarify | Web Design, Branding & Digital Solutions Agency in Morocco | Agence Web, Branding & Solutions Digitales au Maroc",
-//   description: "Webarify is a creative web design and branding agency based in Morocco, serving businesses worldwide. We craft fast, responsive websites, build unique brand identities, and develop smart digital solutions like chatbots and SEO strategies to help brands grow online. | Webarify est une agence créative de design web et de branding basée au Maroc, au service des entreprises du monde entier. Nous concevons des sites web rapides et responsives, créons des identités de marque uniques, et développons des solutions digitales intelligentes telles que des chatbots et des stratégies SEO pour aider les marques à se développer en ligne.",
-//   keywords: [
-//     // English
-//     "web design agency Morocco",
-//     "affordable web development",
-//     "professional branding services",
-//     "creative web agency",
-//     "global digital agency",
-//     "responsive website design",
-//     "custom websites at affordable prices",
-//     "website and branding solutions",
-//     "modern web design",
-//     "business growth online",
-//     // French
-//     "agence de design web Maroc",
-//     "développement web abordable",
-//     "services de branding professionnels",
-//     "agence web créative",
-//     "agence digitale internationale",
-//     "création de site responsive",
-//     "sites web personnalisés à prix abordables",
-//     "solutions de site web et branding",
-//     "design web moderne",
-//     "croissance des entreprises en ligne"
-//   ],
-// };
+export const metadata: Metadata = {
+  title: "Webarify | Web Design, Branding & Digital Solutions Agency in Morocco | Agence Web, Branding & Solutions Digitales au Maroc",
+  description: "Webarify is a creative web design and branding agency based in Morocco, serving businesses worldwide. We craft fast, responsive websites, build unique brand identities, and develop smart digital solutions like chatbots and SEO strategies to help brands grow online. | Webarify est une agence créative de design web et de branding basée au Maroc, au service des entreprises du monde entier. Nous concevons des sites web rapides et responsives, créons des identités de marque uniques, et développons des solutions digitales intelligentes telles que des chatbots et des stratégies SEO pour aider les marques à se développer en ligne.",
+  keywords: [
+    // English
+    "web design agency Morocco",
+    "affordable web development",
+    "professional branding services",
+    "creative web agency",
+    "global digital agency",
+    "responsive website design",
+    "custom websites at affordable prices",
+    "website and branding solutions",
+    "modern web design",
+    "business growth online",
+    // French
+    "agence de design web Maroc",
+    "développement web abordable",
+    "services de branding professionnels",
+    "agence web créative",
+    "agence digitale internationale",
+    "création de site responsive",
+    "sites web personnalisés à prix abordables",
+    "solutions de site web et branding",
+    "design web moderne",
+    "croissance des entreprises en ligne"
+  ],
+};
 
 
 export default function Home() {
@@ -61,14 +59,8 @@ export default function Home() {
           platforms—carefully bring your vision to life.
         </p>
         <div className="mt-8 flex justify-center gap-4">
-          <Button text="Start my project" className="w-full" onClick={() => window.open(
-            "https://wa.me/+212650661172?text=Hi!%20I'm%20interested%20in%20starting%20a%20project%20with%20you.",
-            "_blank"
-          )} />
-          <ButtonSecondary text="Contact Us" onClick={() => window.open(
-            "https://wa.me/+212650661172?text=Hi!%20I'm%20interested%20in%20starting%20a%20project%20with%20you.",
-            "_blank"
-          )}/>
+          <Button text="Start my project" className="w-full"/>
+          <ButtonSecondary text="Contact Us"/>
         </div>
 
         {/* Product Showcase */}
@@ -180,10 +172,7 @@ export default function Home() {
             Don&apos;t settle for average. Let&apos;s craft a stunning, fast, and scalable website tailored to your business
             needs!
           </p>
-          <Button text="Start my project" className="w-full" onClick={() => window.open(
-            "https://wa.me/+212650661172?text=Hi!%20I'm%20interested%20in%20starting%20a%20project%20with%20you.",
-            "_blank"
-          )} /> 
+          <Button text="Start my project" className="w-full"/> 
         </div>
         <div className="">
           <Image src="/assets/images/3dthumbsup.png" alt="Thumbs up"

@@ -9,10 +9,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#FFF6EA] py-12">
         <div className="container mx-auto px-4 text-center flex flex-col items-center">
-          <Button text="Start my project" onClick={() => window.open(
-            "https://wa.me/+212650661172?text=Hi!%20I'm%20interested%20in%20starting%20a%20project%20with%20you.",
-            "_blank"
-          )} />
+          <Button text="Start my project" />
           <Image
             src="/assets/images/webarifylogo.png"
             alt="Webarify Logo"
