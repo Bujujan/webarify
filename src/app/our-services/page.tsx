@@ -5,7 +5,7 @@ import { Metadata } from "next";
 
 
 export const metadata: Metadata = {
-  title: "Webarify | Web Design, Branding & Digital Solutions Agency in Morocco | Agence Web, Branding & Solutions Digitales au Maroc",
+  title: "Webarify | Agence Web, Branding & Solutions Digitales au Maroc",
   description: "Discover Webarify's full range of digital services — from custom web design and development to branding, UI/UX design, SEO, e-commerce solutions, and AI-powered chatbots. We help businesses worldwide build strong online identities and drive digital growth. | Découvrez toute la gamme de services digitaux de Webarify — de la création de sites web personnalisés au branding, design UI/UX, SEO, solutions e-commerce et chatbots intelligents. Nous aidons les entreprises du monde entier à développer leur présence en ligne et leur croissance digitale.",
   keywords: [
     // English
