@@ -18,12 +18,11 @@ export function generateStaticParams() {
   }))
 }
 
-type Props = {
-    params: { slug: string }
-    searchParams?: { [key: string]: string | string[] | undefined }
-  }
-
-export default async function ServicePage({ params }: Props) {
+export default async function ServicePage({
+    params,
+  }: {
+    params: { slug: string };
+  }) {
   const service = getServiceBySlug(params.slug)
 
   if (!service) {
