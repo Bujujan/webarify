@@ -18,12 +18,9 @@ export function generateStaticParams() {
   }))
 }
 
-export default async function ServicePage({
-    params,
-  }: {
-    params: { slug: string };
-  }) {
-  const service = getServiceBySlug(params.slug)
+export default async function ServicePage(props: any) {
+    const { slug } = props.params;
+    const service = getServiceBySlug(slug);
 
   if (!service) {
     notFound()
