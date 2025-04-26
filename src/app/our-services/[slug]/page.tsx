@@ -23,7 +23,7 @@ type ServicePageProps = {
     searchParams?: Record<string, string | string[] | undefined>;
 };
 
-export default async function ServicePage(props: ServicePageProps) {
+export default function ServicePage(props: ServicePageProps) {
     const { slug } = props.params;
     const service = getServiceBySlug(slug);
 
