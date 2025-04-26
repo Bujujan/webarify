@@ -1,9 +1,8 @@
 import Link from "next/link"
 import Image from "next/image"
 import { notFound } from "next/navigation"
-// import ButtonCustom from "@/components/ui/button-custom"
 import Button from "@/components/ui/button"
-import { services, getServiceBySlug } from "@/lib/services-data"
+import { services } from "@/lib/services-data"
 import { Check } from "lucide-react"
 import ButtonSlug from "@/components/ui/buttonslug"
 import ButtonCustom from "@/components/ui/buttonCustom"
@@ -12,6 +11,10 @@ interface ServicePageProps {
   params: {
     slug: string
   }
+}
+
+function getServiceBySlug(slug: string) {
+    return services.find((service) => service.slug === slug);
 }
 
 export function generateStaticParams() {
