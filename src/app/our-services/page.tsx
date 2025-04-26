@@ -16,7 +16,7 @@ export default function OurServices() {
           <h1 className="text-5xl md:text-6xl font-bold mt-4 mb-8">Elevate Your Digital Presence</h1>
           <p className="text-lg leading-relaxed">
             We offer comprehensive solutions to help your business stand out in the digital landscape. From creating a
-            memorable brand identity to developing high-performing websites and AI-powered chatbots, we've got you
+            memorable brand identity to developing high-performing websites and AI-powered chatbots, we&apos;ve got you
             covered with services tailored to your needs.
           </p>
         </div>
@@ -79,7 +79,7 @@ export default function OurServices() {
           <div className="text-center">
             <h2 className="text-3xl font-bold mb-4">Ready to Transform Your Digital Presence?</h2>
             <p className="mb-6 max-w-2xl mx-auto">
-              Let's work together to create solutions that help your business stand out and succeed online.
+              Let&apos;s work together to create solutions that help your business stand out and succeed online.
             </p>
             <ButtonCustom text="Start my project" className="w-full"/> 
           </div>

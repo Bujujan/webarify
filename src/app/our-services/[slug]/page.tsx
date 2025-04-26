@@ -199,7 +199,7 @@ export default function ServicePage({ params }: ServicePageProps) {
           <div className="text-center">
             <h2 className="text-3xl font-bold mb-4">Ready to Get Started?</h2>
             <p className="mb-6 max-w-2xl mx-auto">
-              Let's discuss how our {service.title.toLowerCase()} services can help your business grow.
+              Let&apos;s discuss how our {service.title.toLowerCase()} services can help your business grow.
             </p>
             {/* <Button href="/contact" className="bg-white text-[#278783] hover:bg-white/90 hover:text-[#278783]">
               Contact Us
