@@ -23,7 +23,7 @@ type Props = {
     searchParams?: { [key: string]: string | string[] | undefined }
   }
 
-export default function ServicePage({ params }: Props) {
+export default async function ServicePage({ params }: Props) {
   const service = getServiceBySlug(params.slug)
 
   if (!service) {
