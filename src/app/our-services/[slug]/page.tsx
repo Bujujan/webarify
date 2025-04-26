@@ -7,11 +7,6 @@ import { Check } from "lucide-react"
 import ButtonSlug from "@/components/ui/buttonslug"
 import ButtonCustom from "@/components/ui/buttonCustom"
 
-interface ServicePageProps {
-  params: {
-    slug: string
-  }
-}
 
 function getServiceBySlug(slug: string) {
     return services.find((service) => service.slug === slug);
@@ -23,7 +18,7 @@ export function generateStaticParams() {
   }))
 }
 
-export default function ServicePage({ params }: ServicePageProps) {
+export default function ServicePage({ params }: { params: { slug: string } }) {
   const service = getServiceBySlug(params.slug)
 
   if (!service) {
