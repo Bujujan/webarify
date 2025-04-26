@@ -1,6 +1,6 @@
 'use client'
 
-import React from "react";
+import React, { ReactNode } from "react";
 
 
 
@@ -9,7 +9,7 @@ interface CustomButtonProps {
   className?: string;
 }
 
-const ButtonCustom: React.FC<CustomButtonProps> = ({ text, className }) => {
+const ButtonCustom: React.FC<CustomButtonProps> = ({ text, className, }) => {
   return (
     <div className="relative inline-block hover:translate-y-[-4px] transition duration-200">
       
