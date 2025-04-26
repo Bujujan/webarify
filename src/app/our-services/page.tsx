@@ -1,8 +1,6 @@
-import Link from "next/link"
 import Image from "next/image"
 
-import { services } from "c:/Users/Skaloy/Desktop/Coding/webarify/src/lib/services-data"
-import Button from "@/components/ui/button"
+import { services } from "@/lib/services-data"
 import ButtonCustom from "@/components/ui/buttonCustom"
 import ButtonSlug from "@/components/ui/buttonslug"
 
