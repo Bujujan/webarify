@@ -31,11 +31,11 @@ export default function OurServices() {
               <div className="h-48 relative">
                 <Image src={service.image || "/placeholder.svg"} alt={service.title} fill className="object-cover" />
               </div>
-              <div className="p-6">
+              <div className="p-6 flex flex-col">
                 <h3 className="text-2xl font-bold mb-2">{service.title}</h3>
                 <p className="text-[#141414]/70 mb-4">{service.shortDescription}</p>
-                <ButtonSlug href={`/our-services/${service.slug}`}>
-                  Learn More
+                <ButtonSlug href={`/our-services/${service.slug}`} className="">
+                    Learn More
                 </ButtonSlug>
               </div>
             </div>
