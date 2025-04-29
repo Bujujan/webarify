@@ -1,9 +1,9 @@
 import Link from "next/link"
 import Image from "next/image"
 import { notFound } from "next/navigation"
-import Button from "@/components/ui/button"
+// import Button from "@/components/ui/button"
 import { services } from "@/lib/services-data"
-import { Check } from "lucide-react"
+// import { Check } from "lucide-react"
 import ButtonSlug from "@/components/ui/buttonslug"
 import ButtonCustom from "@/components/ui/buttonCustom"
 
