@@ -105,7 +105,7 @@ export default async function ServicePage({params}: {params: Promise<{slug: stri
         </section>
 
         {/* Pricing Plans */}
-        <section className="mb-16">
+        {/* <section className="mb-16">
           <h2 className="text-3xl font-bold text-center mb-8">Our Packages</h2>
 
           <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -142,6 +142,20 @@ export default async function ServicePage({params}: {params: Promise<{slug: stri
                 </div>
               </div>
             ))}
+          </div>
+        </section> */}
+
+        {/* CTA Section */}
+        <section className="bg-[#278783] text-white rounded-xl p-8 max-w-4xl mx-auto mb-20">
+          <div className="text-center">
+            <h2 className="text-3xl font-bold mb-4">Ready to Get Started?</h2>
+            <p className="mb-6 max-w-2xl mx-auto">
+              Let&apos;s discuss how our {service.title.toLowerCase()} services can help your business grow.
+            </p>
+            {/* <Button href="/contact" className="bg-white text-[#278783] hover:bg-white/90 hover:text-[#278783]">
+              Contact Us
+            </Button> */}
+            <ButtonCustom text="Contact" className="w-full"/> 
           </div>
         </section>
 
@@ -194,19 +208,7 @@ export default async function ServicePage({params}: {params: Promise<{slug: stri
           </div>
         </section>
 
-        {/* CTA Section */}
-        <section className="bg-[#278783] text-white rounded-xl p-8 max-w-4xl mx-auto mb-20">
-          <div className="text-center">
-            <h2 className="text-3xl font-bold mb-4">Ready to Get Started?</h2>
-            <p className="mb-6 max-w-2xl mx-auto">
-              Let&apos;s discuss how our {service.title.toLowerCase()} services can help your business grow.
-            </p>
-            {/* <Button href="/contact" className="bg-white text-[#278783] hover:bg-white/90 hover:text-[#278783]">
-              Contact Us
-            </Button> */}
-            <ButtonCustom text="Contact" className="w-full"/> 
-          </div>
-        </section>
+        
       </main>
     </div>
   )

@@ -19,7 +19,7 @@ const Footer = () => {
           />
           <p className="text-[#141414]/50 mb-8">Get connected and start webarifying.</p>
 
-          <div className="flex justify-center gap-8 mb-8">
+          {/* <div className="flex justify-center gap-8 mb-8">
             <Link href="#" className="text-sm">
               About
             </Link>
@@ -32,7 +32,7 @@ const Footer = () => {
             <Link href="#" className="text-sm">
               Contact
             </Link>
-          </div>
+          </div> */}
 
           <p className="text-sm text-[#141414]/60">© 2025 Webarify. All Rights Reserved.</p>
         </div>
