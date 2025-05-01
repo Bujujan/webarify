@@ -1,10 +1,11 @@
 'use client'
 
+import { Service } from '@/lib/services-data';
 import { useLocale } from 'next-intl';
 import Link from 'next/link';
 import React from 'react'
 
-const Breadcrumps = ({service} : any) => {
+const Breadcrumps = ({service} : {service: Service}) => {
 
     const locale = useLocale();
 
