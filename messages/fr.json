@@ -1,0 +1,179 @@
+{
+    "HomePage": {
+        "hero": {
+            "headline": "Nous donnons vie à votre vision digitale",
+            "subheadline": "Nous créons des sites web rapides, modernes et époustouflants qui aident les entreprises à se développer. D'applications web élégantes à des plateformes en ligne puissantes—nous donnons vie à votre vision avec soin.",
+            "showcase": "Présentation d’une application bancaire"
+        },
+        "whyChooseUs": {
+            "title": "Pourquoi nous choisir ?",
+            "subtitle": "Les avantages",
+            "before": "Avant",
+            "after": "Apres",
+            "pain": {
+                "1": "Site web obsolète avec des temps de chargement lents",
+                "2": "Identité de marque incohérente ou peu mémorable",
+                "3": "Expérience mobile médiocre et design peu intuitif",
+                "4": "Aucune stratégie SEO — difficile à trouver sur Google",
+                "5": "Opportunités manquées d’automatisation et de support 24/7",
+                "6": "Message flou et parcours client inexistant",
+                "7": "Manque de confiance à cause d’un design générique ou non professionnel",
+                "8": "Besoins constants de corrections, aucun support fiable"
+            },
+            "benefits": {
+                "1": "Site ultra-rapide optimisé pour les performances et le SEO",
+                "2": "Branding unique qui raconte votre histoire et renforce la reconnaissance",
+                "3": "Design responsive orienté mobile, fluide sur tous les appareils",
+                "4": "Chatbots alimentés par l’IA pour engager les clients 24/7",
+                "5": "Message clair qui transforme les visiteurs en clients",
+                "6": "Solutions sécurisées et évolutives basées sur les dernières technologies",
+                "7": "Support et mises à jour continues pour une expérience sans accroc",
+                "8": "Stratégies sur mesure combinant web, branding et automatisation"
+            }
+
+        },
+        "cta": {
+            "title": "Votre site, votre marque, votre succès – Nous le rendons possible !",
+            "subtitle": "Ne vous contentez pas de l’ordinaire. Créons ensemble un site rapide, esthétique et évolutif, parfaitement adapté à vos besoins !",
+            "icon": "Pouce levé"
+        },
+        "Process": {
+            "title": "Notre Processus",
+            "subtitle": "Comment nous travaillons",
+            "steps": {
+                "1":{
+                    "title": "Découverte & Planification",
+                    "description": "Nous commençons par comprendre votre vision et vos objectifs. Grâce à des discussions stratégiques collaboratives, nous nous assurons d’être alignés avec vos ambitions et définissons des objectifs clairs pour le projet."
+                },
+                "2":{
+                    "title": "Conception & Développement",
+                    "description": "Notre équipe donne vie à vos idées avec des conceptions créatives et fonctionnelles. Nous utilisons des technologies modernes pour développer un code propre et efficace qui reflète parfaitement votre marque."
+                },
+                "3":{
+                    "title": "Tests & Améliorations",
+                    "description": "Nous testons rigoureusement le produit pour garantir qu’il respecte nos normes élevées. À partir de vos retours, nous affinons la solution afin qu’elle corresponde parfaitement à vos attentes."
+                },
+                "4":{
+                    "title": "Lancement & Support",
+                    "description": "Nous déployons et lançons votre produit avec soin. Nous assurons également un support continu pour garantir sa performance et son évolution en fonction de la croissance de votre entreprise."
+                }
+            }
+        },
+        "Team": {
+            "knowUs": "Apprenez à nous connaître",
+            "title": "Notre Équipe",
+            "subtitle": "Rencontrez les esprits créatifs derrière nos projets exceptionnels",
+            "members": {
+                "abdellah": {
+                    "name": "Abdellah Boujoujan",
+                    "title": "Fondateur & Ingénieur Logiciel",
+                    "bio": "Je suis étudiant en ingénierie logicielle et designer UI/UX, passionné par la création d’expériences numériques fluides. Je me concentre sur la conception de sites web visuellement attrayants et très fonctionnels, combinant design et développement pour créer des solutions performantes et conviviales."
+                },
+                "ryad": {
+                    "name": "Ryad Benmanser",
+                    "title": "Co-Fondateur & Développeur Principal",
+                    "bio": "Je suis étudiant en ingénierie logicielle avec une forte passion pour le développement backend. Je me spécialise dans la création de systèmes évolutifs, efficaces et sécurisés pour propulser des applications web performantes. Toujours à la recherche de nouveaux défis et d’optimisations."
+                }
+            }
+        },
+        "Footer": {
+        "cta": "Connectez-vous et commencez à webarifier.",
+        "copyright": "© 2025 Webarify. Tous droits réservés."
+        }
+    },
+    
+    "ServicesPage": {
+      "navbar": {
+        "logo": "Logo Webarify",
+        "links": ["Accueil", "Nos Réalisations", "Nos Services", "À propos"]
+      },
+      "hero": {
+        "title": "NOS SERVICES",
+        "headline": "Faites rayonner votre présence digitale",
+        "description": "Nous offrons des solutions complètes pour aider votre entreprise à se démarquer en ligne. De la création d’une identité visuelle forte au développement de sites performants et de chatbots IA, nous adaptons nos services à vos besoins."
+      },
+      "learnmore": "Savoir Plus",
+      "services": {
+        "webDevelopment": {
+          "title": "Développement Web",
+          "description": "Sites web modernes, responsives et performants qui génèrent des résultats."
+        },
+        "branding": {
+          "title": "Branding",
+          "description": "Créez une identité de marque mémorable qui touche votre audience."
+        },
+        "aiChatbots": {
+          "title": "Chatbots IA",
+          "description": "Agents conversationnels intelligents pour améliorer l’expérience client."
+        }
+      },
+      "whyChooseWebarify": {
+        "title": "Pourquoi choisir Webarify ?",
+        "benefits": {
+            "1":{
+                "title": "Équipe d'Experts",
+                "description": "Notre équipe de professionnels qualifiés apporte des années d'expérience et d'expertise à chaque projet."
+            },
+            "2":{
+                "title": "Solutions Sur Mesure",
+                "description": "Nous restons à la pointe de la technologie pour fournir des solutions de pointe."
+            },
+            "3":{
+                "title": "Technologies Modernes",
+                "description": "Nous créons des solutions personnalisées conçues spécifiquement pour les besoins uniques de votre entreprise."
+            },
+            "4": {
+                "title": "Support Continu",
+                "description": "Notre relation ne s'arrête pas au lancement - nous offrons un support et une maintenance continus."
+            }
+        }
+
+      },
+      "cta": {
+        "title": "Prêt à transformer votre présence digitale ?",
+        "subtitle": "Collaborons pour créer des solutions uniques qui propulsent votre entreprise en ligne."
+      },
+      "footer": {
+        "logo": "Logo Webarify",
+        "cta": "Connectez-vous et commencez à webarifier.",
+        "copyright": "© 2025 Webarify. Tous droits réservés."
+      }
+    },
+
+    "AboutPage": {
+      "hero": {
+        "title": "À PROPOS DE NOUS",
+        "headline": "Transformer les idées en réalité digitale",
+        "description": "Nous sommes Webarify, une équipe d'étudiants en ingénierie logicielle passionnés par la création de solutions web innovantes, performantes et évolutives. Tout a commencé avec une idée simple : mettre nos compétences techniques et notre créativité au service des entreprises pour les aider à se développer en ligne.",
+        "imageAlt": "Équipe travaillant sur le développement web"
+      },
+      "story": {
+        "sectionTitle": "Comment tout a commencé",
+        "title": "Notre Histoire",
+        "description": "Webarify est né d'une idée simple : transformer la créativité et le code en expériences numériques impactantes. En tant qu'étudiants en ingénierie logicielle, nous avons constaté que de nombreuses entreprises peinaient avec des sites obsolètes et un branding peu efficace. Nous savions que nous pouvions faire mieux."
+      },
+      "mission": {
+        "sectionTitle": "Notre Mission",
+        "description": "Ce qui a commencé comme des projets de passion est devenu une mission : créer des solutions web modernes, performantes et utiles. Aujourd’hui, nous aidons les entreprises à se démarquer avec des services de développement web, de design UI/UX et de branding qui font la différence."
+      },
+      "team": {
+        "sectionTitle": "Faites connaissance avec nous",
+        "title": "Notre Équipe",
+        "subtitle": "Rencontrez les esprits créatifs derrière nos projets exceptionnels",
+        "members": [
+          {
+            "name": "Abdellah Boujoujan",
+            "title": "Fondateur & Ingénieur Logiciel",
+            "bio": "Étudiant en ingénierie logicielle et designer UI/UX, je suis passionné par la création d'expériences numériques fluides. J’allie design et développement pour créer des sites web performants, esthétiques et intuitifs."
+          },
+          {
+            "name": "Ryad Benmanser",
+            "title": "Co-Fondateur & Développeur Principal",
+            "bio": "Étudiant en ingénierie logicielle, passionné par le développement backend. Je conçois des systèmes évolutifs, performants et sécurisés pour alimenter des applications web performantes."
+          }
+        ]
+      }
+    }
+  }
+
+  

@@ -1,0 +1,179 @@
+{
+    "HomePage": {
+        "hero": {
+            "headline": "We Bring Your Digital Vision to Life",
+            "subheadline": "We craft fast, modern, and stunning websites that help businesses grow. From sleek web apps to powerful online platforms—carefully bring your vision to life.",
+            "showcase": "Banking app showcase"
+        },
+        "whyChooseUs": {
+            "title": "Why choose us?",
+            "subtitle": "The benefits",
+            "before": "Before",
+            "after": "After",
+            "pain": {
+                "1" : "Outdated website with slow loading speeds",
+                "2" : "Inconsistent or forgettable brand identity",
+                "3" : "Poor mobile experience and clunky design",
+                "4" : "No SEO strategy—hard to find on Google",
+                "5" : "Missed opportunities for automation & 24/7 support",
+                "6" : "No clear message or customer journey",
+                "7" : "Lack of trust due to generic or unprofessional look",
+                "8" : "Constant need for fixes, no reliable support"
+            },
+            "benefits": {
+                "1": "Lightning-fast website optimized for performance & SEO",
+                "2": "Unique branding that tells your story and builds recognition",
+                "3": "Mobile-first, responsive design that works flawlessly everywhere",
+                "4": "AI-powered chatbots to engage customers 24/7",
+                "5": "Clear messaging that converts visitors into clients",
+                "6": "Secure and scalable solutions built with the latest tech",
+                "7": "Ongoing support & updates to keep things smooth",
+                "8": "Tailored strategies combining web, branding, and automation"
+            }
+        },
+        "cta": {
+            "title": "Your Website, Your Brand, Your Success - We Make It Happen!",
+            "subtitle": "Don't settle for average. Let's craft a stunning, fast, and scalable website tailored to your business needs!",
+            "icon": "Thumbs up"
+        }, 
+        "Process": {
+            "title": "Our Process",
+            "subtitle": "How we work",
+            "steps": {
+                "1":{
+                    "title": "Discovery & Planning",
+                    "description": "We begin by understanding your vision and goals. Through collaborative strategy discussions, we ensure we're aligned with your goals and set clear objectives for the project."
+                },
+                "2":{
+                    "title": "Design & Development",
+                    "description": "Our team brings your ideas to life with creative and functional designs. We use modern technologies to develop clean, efficient code that perfectly represents your brand."
+                },
+                "3":{
+                    "title": "Testing & Refinement",
+                    "description": "We rigorously test the product to ensure it meets our high standards. Based on your feedback, we refine the solution to make sure it aligns perfectly with your expectations."
+                },
+                "4":{
+                    "title": "Launch & Support",
+                    "description": "We carefully deploy and launch your product. We also provide ongoing support to ensure it continues to perform and evolve as your business grows."
+                }
+            }
+        },
+        "Team": {
+            "knowUs": "Get to know us",
+            "title": "Our Team",
+            "subtitle": "Meet the creative minds behind our exceptional projects",
+            "members": {
+                "abdellah": {
+                    "name": "Abdellah Boujoujan",
+                    "title": "Founder & Software Engineer",
+                    "bio": "I am a Software Engineering student and UI/UX designer, passionate about building seamless digital experiences. I focus on crafting visually engaging and highly functional websites, blending design and development to create user-friendly, high-performance solutions."
+                },
+                "ryad": {
+                    "name": "Ryad Benmanser",
+                    "title": "Co-Founder & Lead Developer",
+                    "bio": "I am a Software Engineering student with a strong passion for backend development. I focus on building scalable, efficient, and secure systems to power great web applications. Always looking for new challenges and ways to optimize performance."
+                }
+        }
+        },
+        "footer": {
+            "cta": "Get connected and start webarifying.",
+            "copyright": "© 2025 Webarify. All Rights Reserved."
+        }
+    },
+
+
+    "ServicesPage": {
+        "navbar": {
+            "logo": "Webarify Logo",
+            "links": ["Home", "Our Work", "Our Services", "About Us"]
+        },
+        "hero": {
+            "title": "OUR SERVICES",
+            "headline": "Elevate Your Digital Presence",
+            "description": "We offer comprehensive solutions to help your business stand out in the digital landscape. From creating a memorable brand identity to developing high-performing websites and AI-powered chatbots, we've got you covered with services tailored to your needs."
+        },
+        "learnmore": "Learn More",
+        "services": {
+            "webDevelopment": {
+                "title": "Web Development",
+                "description": "Modern, responsive websites and web applications that drive results."
+            },
+            "branding": {
+                "title": "Branding",
+                "description": "Create a memorable brand identity that resonates with your audience."
+            },
+            "aiChatbots": {
+                "title": "AI Chatbots",
+                "description": "Intelligent conversational agents that enhance customer experience."
+            }
+        },
+        "whyChooseWebarify": {
+            "title": "Why Choose Webarify?",
+            "benefits": {
+                "1":{
+                    "title": "Expert Team",
+                    "description": "Our team of skilled professionals brings years of experience and expertise to every project."
+                } ,
+                "2":{
+                    "title": "Tailored Solutions",
+                    "description": "We stay at the forefront of technology to deliver cutting-edge solutions."
+                } ,
+                "3":{
+                    "title": "Modern Technologies",
+                    "description": "We create custom solutions designed specifically for your unique business needs."
+                } ,
+                "4":{
+                    "title": "Ongoing Support",
+                    "description": "Our relationship doesn't end at launch - we provide continuous support and maintenance."
+                }
+            }
+        },
+        "cta": {
+            "title": "Ready to Transform Your Digital Presence?",
+            "subtitle": "Let's work together to create solutions that help your business stand out and succeed online."
+        },
+        "footer": {
+            "logo": "Webarify Logo",
+            "cta": "Get connected and start webarifying.",
+            "copyright": "© 2025 Webarify. All Rights Reserved."
+        }
+  },
+  "AboutPage": {
+    "hero": {
+      "title": "ABOUT US",
+      "headline": "Turning Ideas into Digital Reality",
+      "description": "We are Webarify, a team of software engineering students with a shared passion for building high-quality, scalable, and innovative web solutions. Our journey started with a simple idea: to use our technical expertise and creative vision to help businesses establish a strong online presence.",
+      "imageAlt": "Team working on web development"
+    },
+    "story": {
+      "sectionTitle": "How it started",
+      "title": "Our Story",
+      "description": "Webarify was born from a simple idea—to turn creativity and code into impactful digital experiences. As software engineering students, we saw businesses struggling with outdated websites and ineffective branding. We knew we could do better."
+    },
+    "mission": {
+      "sectionTitle": "Our Mission",
+      "description": "What started as passion projects became a mission: to build modern, high-performing web solutions that solve real problems. Today, we help brands and businesses stand out online with sleek, scalable, and innovative web development, UI/UX design, and branding that elevate their digital presence."
+    },
+    "team": {
+      "sectionTitle": "Get to know us",
+      "title": "Our Team",
+      "subtitle": "Meet the creative minds behind our exceptional projects",
+      "members": {
+        "abdellah": {
+          "name": "Abdellah Boujoujan",
+          "title": "Founder & Software Engineer",
+          "bio": "I am a Software Engineering student and UI/UX designer, passionate about building seamless digital experiences. I focus on crafting visually engaging and highly functional websites, blending design and development to create user-friendly, high-performance solutions."
+        },
+        "ryad": {
+          "name": "Ryad Benmanser",
+          "title": "Co-Founder & Lead Developer",
+          "bio": "I am a Software Engineering student with a strong passion for backend development. I focus on building scalable, efficient, and secure systems to power great web applications. Always looking for new challenges and ways to optimize performance."
+        }
+      }
+    }
+  }
+}
+
+  
+
+  

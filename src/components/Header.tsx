@@ -5,6 +5,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { Menu, X } from "lucide-react"
 import Button from './ui/button'
+import LocaleSwitcher from './LocaleSwitcher'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -41,8 +42,10 @@ const Header = () => {
       </div>
 
       {/* Desktop Button - Right aligned */}
-      <div className="hidden md:flex items-center">
+      <div className="hidden md:flex items-center gap-4">
+        <LocaleSwitcher />
         <Button text="Start my project"/>
+        
       </div>
 
       {/* Mobile Menu Toggle */}
@@ -71,6 +74,7 @@ const Header = () => {
           <Button text="Start my project" className='w-full' onClick={() => {
             setIsMenuOpen(false)
           }} /> 
+          <LocaleSwitcher/>
         </div>
       )}
     </header>

@@ -3,8 +3,35 @@ import Image from "next/image"
 import { services } from "@/lib/services-data"
 import ButtonCustom from "@/components/ui/buttonCustom"
 import ButtonSlug from "@/components/ui/buttonslug"
+import { useTranslations } from "next-intl";
 
 export default function OurServices() {
+
+  const t = useTranslations('ServicesPage');
+
+  const benefits = [
+    {
+      title:t("whyChooseWebarify.benefits.1.title"),
+      description:t("whyChooseWebarify.benefits.1.description")
+    },
+    {
+      title:t("whyChooseWebarify.benefits.2.title"),
+      description:t("whyChooseWebarify.benefits.2.description")
+    },
+    {
+      title:t("whyChooseWebarify.benefits.3.title"),
+      description:t("whyChooseWebarify.benefits.3.description")
+    },
+    {
+      title:t("whyChooseWebarify.benefits.4.title"),
+      description:t("whyChooseWebarify.benefits.4.description")
+    },
+    
+  ];
+
+  console.log(benefits);
+
+
   return (
     <div className="min-h-screen">
 
@@ -12,12 +39,10 @@ export default function OurServices() {
       <main className="container mx-auto px-4 py-16 relative">
         {/* Services Header */}
         <div className="text-center max-w-4xl mx-auto mb-16">
-          <span className="text-[#278783] text-sm uppercase">OUR SERVICES</span>
-          <h1 className="text-5xl md:text-6xl font-bold mt-4 mb-8">Elevate Your Digital Presence</h1>
+          <span className="text-[#278783] text-sm uppercase">{t('hero.title')}</span>
+          <h1 className="text-5xl md:text-6xl font-bold mt-4 mb-8">{t('hero.headline')}</h1>
           <p className="text-lg leading-relaxed">
-            We offer comprehensive solutions to help your business stand out in the digital landscape. From creating a
-            memorable brand identity to developing high-performing websites and AI-powered chatbots, we&apos;ve got you
-            covered with services tailored to your needs.
+          {t('hero.description')}
           </p>
         </div>
 
@@ -35,7 +60,7 @@ export default function OurServices() {
                 <h3 className="text-2xl font-bold mb-2">{service.title}</h3>
                 <p className="text-[#141414]/70 mb-4">{service.shortDescription}</p>
                 <ButtonSlug href={`/our-services/${service.slug}`} className="">
-                    Learn More
+                    {t('learnmore')}
                 </ButtonSlug>
               </div>
             </div>
@@ -44,28 +69,10 @@ export default function OurServices() {
 
         {/* Why Choose Us */}
         <section className="max-w-4xl mx-auto mb-20">
-          <h2 className="text-3xl font-bold text-center mb-8">Why Choose Webarify?</h2>
+          <h2 className="text-3xl font-bold text-center mb-8">{t('whyChooseWebarify.title')}</h2>
 
           <div className="grid md:grid-cols-2 gap-8">
-            {[
-              {
-                title: "Expert Team",
-                description:
-                  "Our team of skilled professionals brings years of experience and expertise to every project.",
-              },
-              {
-                title: "Tailored Solutions",
-                description: "We create custom solutions designed specifically for your unique business needs.",
-              },
-              {
-                title: "Modern Technologies",
-                description: "We stay at the forefront of technology to deliver cutting-edge solutions.",
-              },
-              {
-                title: "Ongoing Support",
-                description: "Our relationship doesn't end at launch - we provide continuous support and maintenance.",
-              },
-            ].map((item, index) => (
+            {benefits.map((item, index) => (
               <div key={index} className="bg-white rounded-xl shadow-sm p-6">
                 <h3 className="font-bold text-xl mb-2">{item.title}</h3>
                 <p className="text-[#141414]/80">{item.description}</p>
@@ -77,9 +84,9 @@ export default function OurServices() {
         {/* CTA Section */}
         <section className="bg-[#278783] text-white rounded-xl p-8 max-w-4xl mx-auto mb-20">
           <div className="text-center">
-            <h2 className="text-3xl font-bold mb-4">Ready to Transform Your Digital Presence?</h2>
+            <h2 className="text-3xl font-bold mb-4">{t('cta.title')}</h2>
             <p className="mb-6 max-w-2xl mx-auto">
-              Let&apos;s work together to create solutions that help your business stand out and succeed online.
+            {t('cta.subtitle')}
             </p>
             <ButtonCustom text="Start my project" className="w-full"/> 
           </div>
