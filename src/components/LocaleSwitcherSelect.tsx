@@ -38,14 +38,14 @@ export default function LocaleSwitcherSelect({
   return (
     <label
       className={clsx(
-        'relative text-white bg-[#278783] rounded-md hover:cursor-pointer',
+        'relative text-black rounded-md hover:cursor-pointer',
 
         isPending && 'transition-opacity [&:disabled]:opacity-30'
       )}
     >
       <p className="sr-only">{label}</p>
       <select
-        className="inline-flex appearance-none bg-[#278783] rounded-md py-2 pl-2 pr-6"
+        className="inline-flex appearance-none rounded-md py-2 pl-2 pr-4"
         defaultValue={defaultValue}
         disabled={isPending}
         onChange={onSelectChange}
