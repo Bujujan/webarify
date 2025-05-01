@@ -1,8 +1,6 @@
 import Image from "next/image"
 import { notFound } from "next/navigation"
-// import Button from "@/components/ui/button"
 import { services } from "@/lib/services-data"
-// import { Check } from "lucide-react"
 import ButtonSlug from "@/components/ui/buttonslug"
 import ButtonCustom from "@/components/ui/buttonCustom"
 import Breadcrumps from "@/components/Breadcrumps"
@@ -12,11 +10,11 @@ function getServiceBySlug(slug: string) {
     return services.find((service) => service.slug === slug);
 }
 
-export function generateStaticParams() {
-  return services.map((service) => ({
-    slug: service.slug,
-  }))
-}
+// export function generateStaticParams() {
+//   return services.map((service) => ({
+//     slug: service.slug,
+//   }))
+// }
 
 export default async function ServicePage({params}: {params: Promise<{slug: string}>}) {
     const resolvedParams = await params;
