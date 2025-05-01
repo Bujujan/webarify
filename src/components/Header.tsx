@@ -62,16 +62,16 @@ const Header = () => {
       {/* Mobile dropdown menu */}
       {isMenuOpen && (
         <div className="absolute top-full left-0 w-full bg-[#FFF6EA] shadow-md py-6 px-4 flex flex-col space-y-4 z-10 md:hidden animate-slide-down">
-          <Link href="/" onClick={() => setIsMenuOpen(false)} className="text-sm">
+          <Link href={`/${locale}/`} onClick={() => setIsMenuOpen(false)} className="text-sm">
             Home
           </Link>
           <Link href="#" onClick={() => setIsMenuOpen(false)} className="text-sm">
             Our Work
           </Link>
-          <Link href="/our-services" onClick={() => setIsMenuOpen(false)} className="text-sm">
+          <Link href={`/${locale}/our-services`} onClick={() => setIsMenuOpen(false)} className="text-sm">
             Our Services
           </Link>
-          <Link href="/about-us" onClick={() => setIsMenuOpen(false)} className="text-sm">
+          <Link href={`/${locale}/about-us`} onClick={() => setIsMenuOpen(false)} className="text-sm">
             About Us
           </Link>
           <Button text="Start my project" className='w-full' onClick={() => {
