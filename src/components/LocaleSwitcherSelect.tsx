@@ -5,6 +5,7 @@ import {useParams} from 'next/navigation';
 import {Locale} from 'next-intl';
 import {ChangeEvent, ReactNode, useTransition} from 'react';
 import {usePathname, useRouter} from '@/i18n/navigation';
+import { ChevronDown } from 'lucide-react';
 
 type Props = {
   children: ReactNode;
@@ -38,21 +39,23 @@ export default function LocaleSwitcherSelect({
   return (
     <label
       className={clsx(
-        'relative text-black rounded-md hover:cursor-pointer',
+        'relative flex justify-end items-center text-black rounded-md hover:cursor-pointer',
 
         isPending && 'transition-opacity [&:disabled]:opacity-30'
       )}
     >
       <p className="sr-only">{label}</p>
       <select
-        className="inline-flex appearance-none rounded-md py-2 pl-2 pr-5"
+        className="inline-flex appearance-none rounded-md py-2 pl-2"
         defaultValue={defaultValue}
         disabled={isPending}
         onChange={onSelectChange}
       >
         {children}
+        <ChevronDown />
       </select>
-      <span className="pointer-events-none absolute right-2 top-[5px]">⌄</span>
+      {/* <span className="pointer-events-none absolute right-2 top-[5px]">⌄</span> */}
+      
     </label>
   );
 }

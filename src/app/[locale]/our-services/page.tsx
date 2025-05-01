@@ -3,11 +3,13 @@ import Image from "next/image"
 import { services } from "@/lib/services-data"
 import ButtonCustom from "@/components/ui/buttonCustom"
 import ButtonSlug from "@/components/ui/buttonslug"
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
 export default function OurServices() {
 
   const t = useTranslations('ServicesPage');
+
+  const locale = useLocale();
 
   const benefits = [
     {
@@ -28,8 +30,6 @@ export default function OurServices() {
     },
     
   ];
-
-  console.log(benefits);
 
 
   return (
@@ -59,7 +59,7 @@ export default function OurServices() {
               <div className="p-6 flex flex-col">
                 <h3 className="text-2xl font-bold mb-2">{service.title}</h3>
                 <p className="text-[#141414]/70 mb-4">{service.shortDescription}</p>
-                <ButtonSlug href={`/our-services/${service.slug}`} className="">
+                <ButtonSlug href={`/${locale}/our-services/${service.slug}`} className="">
                     {t('learnmore')}
                 </ButtonSlug>
               </div>

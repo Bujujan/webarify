@@ -1,4 +1,3 @@
-import Link from "next/link"
 import Image from "next/image"
 import { notFound } from "next/navigation"
 // import Button from "@/components/ui/button"
@@ -6,6 +5,7 @@ import { services } from "@/lib/services-data"
 // import { Check } from "lucide-react"
 import ButtonSlug from "@/components/ui/buttonslug"
 import ButtonCustom from "@/components/ui/buttonCustom"
+import Breadcrumps from "@/components/Breadcrumps"
 
 
 function getServiceBySlug(slug: string) {
@@ -31,32 +31,8 @@ export default async function ServicePage({params}: {params: Promise<{slug: stri
     <div className="min-h-screen">
       {/* Main Content */}
       <main className="container mx-auto px-4 py-16 relative">
-        {/* Breadcrumbs */}
-        <div className="mb-8">
-          <nav className="flex" aria-label="Breadcrumb">
-            <ol className="inline-flex items-center space-x-1 md:space-x-3">
-              <li className="inline-flex items-center">
-                <Link href="/" className="text-sm text-[#141414]/70 hover:text-[#141414]">
-                  Home
-                </Link>
-              </li>
-              <li>
-                <div className="flex items-center">
-                  <span className="mx-2 text-[#141414]/70">/</span>
-                  <Link href="/our-services" className="text-sm text-[#141414]/70 hover:text-[#141414]">
-                    Our Services
-                  </Link>
-                </div>
-              </li>
-              <li aria-current="page">
-                <div className="flex items-center">
-                  <span className="mx-2 text-[#141414]/70">/</span>
-                  <span className="text-sm font-medium text-[#141414]">{service.title}</span>
-                </div>
-              </li>
-            </ol>
-          </nav>
-        </div>
+        
+        <Breadcrumps service = {service}/>
 
         {/* Service Header */}
         <div className="text-center max-w-4xl mx-auto mb-16">
