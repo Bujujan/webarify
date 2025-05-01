@@ -1,5 +1,4 @@
 import Image from "next/image"
-import { Linkedin } from 'lucide-react';
 import { Metadata } from "next";
 import { useTranslations } from "next-intl";
 import Team from "@/components/Team";
