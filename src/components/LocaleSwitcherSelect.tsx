@@ -17,6 +17,9 @@ const LocaleSwitcherSelect : FC<Props> =({ children, defaultValue, label }: Prop
   const params = useParams();
   const router = useRouter();
   const [isPending, startTransition] = useTransition();
+  children;
+  defaultValue;
+  label;
 
   const currentLocale = params.locale as Locale;
   const nextLocale: Locale = currentLocale === 'en' ? 'fr' : 'en';
