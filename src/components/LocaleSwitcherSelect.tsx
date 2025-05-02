@@ -1,61 +1,36 @@
 'use client';
 
-import clsx from 'clsx';
-import {useParams} from 'next/navigation';
-import {Locale} from 'next-intl';
-import {ChangeEvent, ReactNode, useTransition} from 'react';
-import {usePathname, useRouter} from '@/i18n/navigation';
-import { ChevronDown } from 'lucide-react';
+import { usePathname, useRouter } from '@/i18n/navigation';
+import { useParams } from 'next/navigation';
+import { Locale } from 'next-intl';
+import { useTransition } from 'react';
 
-type Props = {
-  children: ReactNode;
-  defaultValue: string;
-  label: string;
-};
-
-export default function LocaleSwitcherSelect({
-  children,
-  defaultValue,
-  label
-}: Props) {
-  const router = useRouter();
-  const [isPending, startTransition] = useTransition();
+export default function LocaleSwitcher() {
   const pathname = usePathname();
   const params = useParams();
+  const router = useRouter();
+  const [isPending, startTransition] = useTransition();
 
-  function onSelectChange(event: ChangeEvent<HTMLSelectElement>) {
-    const nextLocale = event.target.value as Locale;
+  const currentLocale = params.locale as Locale;
+  const nextLocale: Locale = currentLocale === 'en' ? 'fr' : 'en';
+
+  function handleSwitch() {
     startTransition(() => {
       router.replace(
-        // @ts-expect-error -- TypeScript will validate that only known `params`
-        // are used in combination with a given `pathname`. Since the two will
-        // always match for the current route, we can skip runtime checks.
-        {pathname, params},
-        {locale: nextLocale}
+        // @ts-expect-error acceptable for i18n routing
+        { pathname, params },
+        { locale: nextLocale }
       );
     });
   }
 
   return (
-    <label
-      className={clsx(
-        'relative flex justify-end items-center text-black rounded-md hover:cursor-pointer',
-
-        isPending && 'transition-opacity [&:disabled]:opacity-30'
-      )}
+    <button
+      onClick={handleSwitch}
+      disabled={isPending}
+      className="uppercase text-sm translate-x-8 cursor-pointer font-medium hover:underline disabled:opacity-50"
     >
-      <p className="sr-only">{label}</p>
-      <select
-        className="inline-flex appearance-none rounded-md py-2 pl-2"
-        defaultValue={defaultValue}
-        disabled={isPending}
-        onChange={onSelectChange}
-      >
-        {children}
-        <ChevronDown />
-      </select>
-      {/* <span className="pointer-events-none absolute right-2 top-[5px]">⌄</span> */}
-      
-    </label>
+      {currentLocale}
+    </button>
   );
 }

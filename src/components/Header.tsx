@@ -47,10 +47,10 @@ const Header = () => {
       {/* Desktop Button - Right aligned */}
       <div className="hidden md:flex items-center gap-4">
         <Button text="Start my project"/>
-        <LocaleSwitcher />
+      
         
       </div>
-
+      <LocaleSwitcher/>
       {/* Mobile Menu Toggle */}
       <button
         className="md:hidden text-black z-20"
