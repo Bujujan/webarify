@@ -11,15 +11,12 @@ type Props = {
   label: string;
 };
 
-const LocaleSwitcherSelect : FC<Props> =({ children, defaultValue, label }: Props) => {
+const LocaleSwitcherSelect = () => {
 
   const pathname = usePathname();
   const params = useParams();
   const router = useRouter();
   const [isPending, startTransition] = useTransition();
-  children;
-  defaultValue;
-  label;
 
   const currentLocale = params.locale as Locale;
   const nextLocale: Locale = currentLocale === 'en' ? 'fr' : 'en';
