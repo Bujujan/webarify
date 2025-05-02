@@ -3,13 +3,8 @@
 import { usePathname, useRouter } from '@/i18n/navigation';
 import { useParams } from 'next/navigation';
 import { Locale } from 'next-intl';
-import { FC, ReactNode, useTransition } from 'react';
+import { useTransition } from 'react';
 
-type Props = {
-  children: ReactNode;
-  defaultValue: string;
-  label: string;
-};
 
 const LocaleSwitcherSelect = () => {
 
