@@ -3,9 +3,16 @@
 import { usePathname, useRouter } from '@/i18n/navigation';
 import { useParams } from 'next/navigation';
 import { Locale } from 'next-intl';
-import { useTransition } from 'react';
+import { FC, ReactNode, useTransition } from 'react';
 
-export default function LocaleSwitcher() {
+type Props = {
+  children: ReactNode;
+  defaultValue: string;
+  label: string;
+};
+
+const LocaleSwitcherSelect : FC<Props> =({ children, defaultValue, label }: Props) => {
+
   const pathname = usePathname();
   const params = useParams();
   const router = useRouter();
@@ -33,4 +40,6 @@ export default function LocaleSwitcher() {
       {currentLocale}
     </button>
   );
-}
+}; export default LocaleSwitcherSelect;
+
+
