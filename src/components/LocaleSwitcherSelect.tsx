@@ -30,7 +30,7 @@ const LocaleSwitcherSelect = () => {
     <button
       onClick={handleSwitch}
       disabled={isPending}
-      className="uppercase text-sm translate-x-8 cursor-pointer font-medium hover:underline disabled:opacity-50"
+      className="uppercase text-sm cursor-pointer font-medium hover:underline disabled:opacity-50"
     >
       {currentLocale}
     </button>

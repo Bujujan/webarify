@@ -1,4 +1,10 @@
 {
+    "Navbar": {
+        "home": "Home",
+        "work": "Our Work",
+        "services": "Our Services",
+        "about": "About Us"
+    },
     "HomePage": {
         "hero": {
             "headline": "We Bring Your Digital Vision to Life",
@@ -33,7 +39,7 @@
         },
         "cta": {
             "title": "Your Website, Your Brand, Your Success - We Make It Happen!",
-            "subtitle": "Don't settle for average. Let's craft a stunning, fast, and scalable website tailored to your business needs!",
+            "subtitle": "Don't settle for average. Let's craft a stunning, fast, and scalable website tailored to your business needs.",
             "icon": "Thumbs up"
         }, 
         "Process": {

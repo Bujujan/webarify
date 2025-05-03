@@ -1,4 +1,10 @@
 {
+    "Navbar": {
+        "home": "Acceuil",
+        "work": "Nos Realisations",
+        "services": "Nos Services",
+        "about": "A propos"
+    },
     "HomePage": {
         "hero": {
             "headline": "Nous donnons vie à votre vision digitale",
@@ -34,7 +40,7 @@
         },
         "cta": {
             "title": "Votre site, votre marque, votre succès – Nous le rendons possible !",
-            "subtitle": "Ne vous contentez pas de l’ordinaire. Créons ensemble un site rapide, esthétique et évolutif, parfaitement adapté à vos besoins !",
+            "subtitle": "Ne vous contentez pas de l’ordinaire. Créons ensemble un site rapide, esthétique et évolutif, parfaitement adapté à vos besoins.",
             "icon": "Pouce levé"
         },
         "Process": {
