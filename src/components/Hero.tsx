@@ -23,6 +23,7 @@ const Hero = () => {
                     <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" /> */}
                 </div>
             </div>
+            
             <motion.h1 initial={{ opacity: 0, scale: 0 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{

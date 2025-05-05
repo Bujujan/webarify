@@ -88,19 +88,7 @@ export default function Home() {
     <div className="min-h-screen">
 
       <Hero />
-
-
-      {/* Trusted By */}
-      {/* <section className="container mx-auto px-4 py-16 text-center">
-        <h3 className="text-sm text-[#278783] mb-2">Trusted by</h3>
-        <div className="flex justify-center gap-8 mt-4">
-          <div className="bg-gray-500 w-16 h-16 rounded"></div>
-          <div className="bg-gray-500 w-16 h-16 rounded"></div>
-          <div className="bg-gray-500 w-16 h-16 rounded"></div>
-          <div className="bg-gray-500 w-16 h-16 rounded"></div>
-        </div>
-      </section> */}
-
+      
       {/* Benefits Section */}
       <section className="container mx-auto px-4 py-16">
         <div className="text-center mb-12">
