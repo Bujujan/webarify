@@ -1,11 +1,9 @@
 import Image from "next/image"
 // import { Star } from "lucide-react"
 import Button from "../../components/ui/button"
-import ButtonSecondary from "../../components/ui/buttonSecondary"
 import { Metadata } from "next";
 import {useTranslations} from 'next-intl';
 import Team from "@/components/Team";
-import { motion } from "motion/react"
 import Hero from "@/components/Hero";
 
 
