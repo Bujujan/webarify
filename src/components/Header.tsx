@@ -16,7 +16,7 @@ const Header = () => {
   const t = useTranslations('Navbar');
 
   return (
-    <header className="relative container mx-auto px-4 py-4 flex items-center justify-between">
+    <header className="relative sm:w-[90%] container mx-auto px-4 py-4 flex items-center justify-between">
       {/* Logo */}
       <div className="flex items-center w-[150px] h-[50px] shrink-0">
         <Link href="http://www.webarify.com" rel="noopener noreferrer" className='flex items-center'>
