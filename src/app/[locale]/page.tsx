@@ -5,6 +5,8 @@ import ButtonSecondary from "../../components/ui/buttonSecondary"
 import { Metadata } from "next";
 import {useTranslations} from 'next-intl';
 import Team from "@/components/Team";
+import { motion } from "motion/react"
+import Hero from "@/components/Hero";
 
 
 export const metadata: Metadata = {
@@ -87,41 +89,7 @@ export default function Home() {
   return (
     <div className="min-h-screen">
 
-      {/* Hero Section */}  
-      <section className="container mx-auto px-4 py-16 text-center">
-        <div className="flex justify-center mb-2">
-          <div className="flex">
-            {/* <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-            <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-            <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-            <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-            <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" /> */}
-          </div>
-        </div>
-        <h1 className="text-5xl md:text-8xl font-extrabold max-w-5xl mx-auto leading-tight">
-          {t('hero.headline')}
-        </h1>
-        <p className="max-w-2xl mx-auto mt-4 text-[#141414]/80">
-          {t('hero.subheadline')}
-        </p>
-        <div className="mt-8 flex justify-center gap-4">
-          <Button text="Start my project" className="w-full"/>
-          <ButtonSecondary text="Contact Us"/>
-        </div>
-
-        {/* Product Showcase */}
-        <section className="">
-          <div className="flex justify-center w-full ">
-            <Image
-              src="/assets/images/heroimages.png"
-              alt="Banking app showcase"
-              width={1400}
-              height={800}
-            />
-          </div>
-        </section>
-
-      </section>
+      <Hero />
 
 
       {/* Trusted By */}
