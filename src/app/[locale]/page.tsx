@@ -90,8 +90,8 @@ export default function Home() {
       <Hero />
       
       {/* Benefits Section */}
-      <section className="container mx-auto px-4 py-16">
-        <div className="text-center mb-12">
+      <section className="container mx-auto px-4 mb-34">
+        <div className="text-center mb-8">
           <h3 className="text-sm text-[#278783] mb-2">{t('whyChooseUs.title')}</h3>
           <h2 className="text-3xl font-bold">{t('whyChooseUs.subtitle')}</h2>
         </div>
@@ -116,8 +116,8 @@ export default function Home() {
 
           {/* After Column */}
           <div>
-            <div className="flex flex-col mb-4 w-full justify-center items-center">
-              <h4 className="mb-4 text-[#141414]/60">{t('whyChooseUs.after')}</h4>
+            <div className="flex flex-col mb-3 w-full justify-center items-center">
+              <h4 className="mb-1 text-[#141414]/60">{t('whyChooseUs.after')}</h4>
               <Image
                 src="/assets/images/webarifylogo.png"
                 alt="Webarify Logo"
@@ -143,7 +143,7 @@ export default function Home() {
       </section>
 
       {/* Success Section */}
-      <section className="container mx-auto px-4 py-16 flex flex-col md:flex-row items-center justify-center gap-8 md:gap-8">
+      <section className="container mx-auto px-4 py-16 flex flex-col md:flex-row items-center mb-24 justify-center gap-8 md:gap-12">
         <div className="">
           <h2 className="text-4xl md:text-5xl md:max-w-3xl lg:text-7xl font-bold leading-tight">
           {t('cta.title')}
@@ -154,13 +154,13 @@ export default function Home() {
           <Button text="Start my project" className="w-full"/> 
         </div>
         <div className="">
-          <Image src="/assets/images/3dthumbsup.png" alt="Thumbs up"
+          <Image src="/assets/images/success.png" alt="astronaut"
           width={800} height={400} className="w-full h-full" />
         </div>
       </section>
 
       {/* How We Work */}
-      <section className="container mx-auto px-4 py-16">
+      <section className="container mx-auto px-4 py-16 mb-24">
         <h3 className="text-sm text-[#278783] mb-2 text-center">{t('Process.title')}</h3>
         <h2 className="text-3xl font-bold text-center mb-12">{t('Process.subtitle')}</h2>
 
