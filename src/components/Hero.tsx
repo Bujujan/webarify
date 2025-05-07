@@ -2,7 +2,6 @@
 
 import React from 'react'
 import Button from './ui/button'
-import ButtonSecondary from './ui/buttonSecondary'
 import Image from 'next/image'
 import { useTranslations } from 'next-intl';
 import { motion } from "motion/react"
@@ -13,7 +12,7 @@ const Hero = () => {
     
     return (
         
-    <section className="container mx-auto px-4 py-16 text-center">
+    <section className="container mx-auto px-4 py-16 mt-[80px] text-center">
             <div className="flex justify-center mb-2">
                 <div className="flex">
                     {/* <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
@@ -50,9 +49,9 @@ const Hero = () => {
                     duration: 0.9,
                     scale: { type: "spring", visualDuration: 0.8, bounce: 0.3 },
                 }}  
-                className="mt-8 flex justify-center gap-4">
-                    <Button text="Start my project" className="w-full"/>
-                    <ButtonSecondary text="Contact Us"/>
+                className="mt-6 flex flex-col items-center gap-4">
+                    <Button />
+                    <p className='text-xs text-[#808080]'>{t('hero.msg')}</p>
             </motion.div>
 
             {/* Product Showcase */}

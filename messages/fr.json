@@ -1,4 +1,7 @@
 {
+    "Button": {
+        "Button": "Lancer mon projet"
+    },
     "Navbar": {
         "home": "Acceuil",
         "work": "Nos Realisations",
@@ -9,7 +12,8 @@
         "hero": {
             "headline": "Nous donnons vie à votre vision digitale",
             "subheadline": "Au-delà des sites web — nous construisons des marques, concevons des identités digitales, et créons des chatbots intelligents qui engagent et convertissent.",
-            "showcase": "Présentation d’une application bancaire"
+            "showcase": "Présentation d’une application bancaire",
+            "msg" : "Nous faisons tout avec amour ❤️"
         },
         "whyChooseUs": {
             "title": "Pourquoi nous choisir ?",
@@ -40,7 +44,7 @@
         },
         "cta": {
             "title": "Votre site, votre marque, votre succès – Nous le rendons possible !",
-            "subtitle": "Ne vous contentez pas de l’ordinaire. Créons ensemble un site rapide, esthétique et évolutif, parfaitement adapté à vos besoins.",
+            "subtitle": "Ne vous contentez pas de l’ordinaire. Créons ensemble une marque percutante, un site web rapide et évolutif, ainsi que des chatbots intelligents — le tout adapté aux besoins de votre entreprise",
             "icon": "Pouce levé"
         },
         "Process": {

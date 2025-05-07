@@ -1,10 +1,10 @@
 import Image from "next/image"
-// import { Star } from "lucide-react"
 import Button from "../../components/ui/button"
 import { Metadata } from "next";
 import {useTranslations} from 'next-intl';
 import Team from "@/components/Team";
 import Hero from "@/components/Hero";
+import CallToAction from "@/components/CallToAction";
 
 
 export const metadata: Metadata = {
@@ -40,6 +40,7 @@ export const metadata: Metadata = {
 export default function Home() {
 
   const t = useTranslations('HomePage');
+  const t2 = useTranslations('ServicesPage');
 
   const problems = [
     t("whyChooseUs.pain.1"),
@@ -90,7 +91,7 @@ export default function Home() {
       <Hero />
       
       {/* Benefits Section */}
-      <section className="container mx-auto px-4 mb-34">
+      <section className="container mx-auto px-4 mb-42">
         <div className="text-center mb-8">
           <h3 className="text-sm text-[#278783] mb-2">{t('whyChooseUs.title')}</h3>
           <h2 className="text-3xl font-bold">{t('whyChooseUs.subtitle')}</h2>
@@ -100,7 +101,7 @@ export default function Home() {
           {/* Before Column */}
           <div>
             <h4 className="mb-4 text-[#141414]/60 text-center">{t('whyChooseUs.before')}</h4>
-            <div className="bg-white p-6 rounded-xl shadow-sm">
+            <div className="bg-white p-6 rounded-xl shadow-sm h-[424px]">
               <div className="space-y-6">
               {problems.map((item, index) => (
                 <div key={index} className="flex items-start gap-3">
@@ -126,7 +127,7 @@ export default function Home() {
                 className="object-contain"
               />
             </div>
-            <div className="bg-white p-6 rounded-xl shadow-sm">
+            <div className="bg-white p-6 rounded-xl shadow-sm h-full">
               <div className="space-y-6">
               {benefits.map((item, index) => (
                 <div key={index} className="flex items-start gap-3">
@@ -143,7 +144,7 @@ export default function Home() {
       </section>
 
       {/* Success Section */}
-      <section className="container mx-auto px-4 py-16 flex flex-col md:flex-row items-center mb-24 justify-center gap-8 md:gap-12">
+      <section className="container mx-auto px-4 py-16 flex flex-col md:flex-row items-center mb-42 justify-center gap-8 md:gap-12">
         <div className="">
           <h2 className="text-4xl md:text-5xl md:max-w-3xl lg:text-7xl font-bold leading-tight">
           {t('cta.title')}
@@ -151,7 +152,7 @@ export default function Home() {
           <p className="mt-4 mb-4 text-[#141414]/80">
             {t('cta.subtitle')}
           </p>
-          <Button text="Start my project" className="w-full"/> 
+          <Button className="w-full"/> 
         </div>
         <div className="">
           <Image src="/assets/images/success.png" alt="astronaut"
@@ -183,6 +184,10 @@ export default function Home() {
 
       {/* Team Section */}
       <Team />
+
+      {/* CTA Section */}
+      <CallToAction />
+
     </div>
   )
 }

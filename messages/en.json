@@ -1,4 +1,7 @@
 {
+    "Button": {
+        "Button": "Start my project"
+    },
     "Navbar": {
         "home": "Home",
         "work": "Our Work",
@@ -9,7 +12,8 @@
         "hero": {
             "headline": "We Bring Your Digital Vision to Life",
             "subheadline": "Beyond websites—we build brands, design digital identities, and create smart AI chatbots that connect and convert.",
-            "showcase": "Banking app showcase"
+            "showcase": "Banking app showcase",
+            "msg" : "We do everything with love ❤️"
         },
         "whyChooseUs": {
             "title": "Why choose us?",
@@ -39,7 +43,7 @@
         },
         "cta": {
             "title": "Your Website, Your Brand, Your Success - We Make It Happen!",
-            "subtitle": "Don't settle for average. Let's craft a stunning, fast, and scalable website tailored to your business needs.",
+            "subtitle": "Don't settle for average. Let's craft a stunning brand, a fast and scalable website, and smart AI chatbots—all tailored to your business needs.",
             "icon": "Thumbs up"
         }, 
         "Process": {

@@ -1,9 +1,9 @@
 import Image from "next/image"
 
 import { services } from "@/lib/services-data"
-import ButtonCustom from "@/components/ui/buttonCustom"
 import ButtonSlug from "@/components/ui/buttonslug"
 import { useLocale, useTranslations } from "next-intl";
+import CallToAction from "@/components/CallToAction";
 
 export default function OurServices() {
 
@@ -82,15 +82,7 @@ export default function OurServices() {
         </section>
 
         {/* CTA Section */}
-        <section className="bg-[#278783] text-white rounded-xl p-8 max-w-4xl mx-auto mb-20">
-          <div className="text-center">
-            <h2 className="text-3xl font-bold mb-4">{t('cta.title')}</h2>
-            <p className="mb-6 max-w-2xl mx-auto">
-            {t('cta.subtitle')}
-            </p>
-            <ButtonCustom text="Start my project" className="w-full"/> 
-          </div>
-        </section>
+        <CallToAction />
       </main>
     </div>
   )
