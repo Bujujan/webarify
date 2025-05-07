@@ -40,7 +40,6 @@ export const metadata: Metadata = {
 export default function Home() {
 
   const t = useTranslations('HomePage');
-  const t2 = useTranslations('ServicesPage');
 
   const problems = [
     t("whyChooseUs.pain.1"),
