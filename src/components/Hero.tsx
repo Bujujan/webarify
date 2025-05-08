@@ -51,7 +51,6 @@ const Hero = () => {
                 }}  
                 className="mt-6 flex flex-col items-center gap-4">
                     <Button />
-                    <p className='text-xs text-[#808080]'>{t('hero.msg')}</p>
             </motion.div>
 
             {/* Product Showcase */}
