@@ -33,7 +33,7 @@ export default function OurServices() {
 
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen pt-[80px]">
 
       {/* Main Content */}
       <main className="container mx-auto px-4 py-16 relative">

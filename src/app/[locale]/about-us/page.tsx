@@ -30,7 +30,7 @@ export default function AboutUs() {
   const t = useTranslations('AboutPage');
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen pt-[80px]">
       
 
       {/* Main Content */}
