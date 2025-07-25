@@ -4,6 +4,7 @@ import { Metadata } from "next";
 import {useTranslations} from 'next-intl';
 import Team from "@/components/Team";
 import Hero from "@/components/Hero";
+
 import CallToAction from "@/components/CallToAction";
 
 
